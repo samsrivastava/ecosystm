@@ -1,0 +1,115 @@
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: fixed;
+    top: 57px;
+    left: 50%;
+    width: 95%;
+    height: 80px;
+    transform: translate(-50%);
+    z-index: 9999;
+    position: absolute;
+}
+
+.navbar-logo{
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #474848;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+
+.dropdown-menu-dark {
+    --bs-border-color: transparent;
+    --bs-border-color-translucent: transparent;
+    --bs-dropdown-link-hover-color: black;
+}
+
+.nav-links-dropdown{
+    text-decoration: none;
+    color: #474848;
+    font-size: 18px;
+    font-weight: 600;
+    /* padding: 0.7rem 1rem; */
+    white-space: nowrap;
+}
+
+.dropdown-menu-dark {
+    --bs-dropdown-color: #474848;
+    --bs-dropdown-bg: transparent;
+    /* --bs-dropdown-border-color: var(--bs-border-color-translucent); */
+    --bs-dropdown-box-shadow: ;
+    --bs-dropdown-link-color: #474848
+    --bs-dropdown-link-hover-color: #fff;
+    --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+    /* --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15); */
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: #0d6efd;
+    --bs-dropdown-link-disabled-color: #adb5bd;
+    --bs-dropdown-header-color: #adb5bd;
+}
+
+.menu-icons{
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .NavbarItems{
+        z-index: 99;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 90px;
+        align-items: stretch;
+        margin: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-menu.active{
+        background-color: #d6d7d8;
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-links{
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        margin-left: 20px;
+        color: #FF0000;
+
+    }
+
+    .menu-icons{
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-icons i{
+        font-size: 1.2rem;
+    }
+
+
+}

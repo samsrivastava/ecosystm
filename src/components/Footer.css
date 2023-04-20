@@ -1,0 +1,170 @@
+.plane4{
+    margin-top: 200px;
+    width: 100%;
+    height: 800px;
+    background-color: #1D1C23;
+    /* transform: translate(10%); */
+}
+
+.float-right{
+    float: right;
+}
+
+.UlFoot{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+.FooterNav{
+    position: relative;
+    bottom: -200px;
+    
+}
+
+.copyright{
+    color: white;
+    position: relative;
+    bottom: -250px;
+    float: right;
+    margin-right: 9%;
+}
+
+.logocopy{
+    position: relative;
+    bottom: -250px;
+    margin-left: 9%;
+}
+
+.fooHr{
+    position: relative;
+    bottom: -200px;
+    color: white;
+    width: 82%;
+    margin: auto;
+}
+
+.foot{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.learn{
+    margin-left: 5%;
+    font-size: 250%;
+}
+
+.ConUS{
+    margin: auto;
+    font-size: larger;
+    zoom: 120%;
+}
+
+.box-footer{
+    margin-left: 5%;
+    padding-top: 3%;
+    margin-top: 50%;
+    margin: auto;
+    width: 100%;
+}
+
+.center-box-footer{
+    border-radius: 30px;
+    top: 20%;
+    margin: auto auto;
+    width: 80%;
+    height: fit-content;
+    text-align: left;
+    background-color: #FF0101;
+    position: relative;
+    color: white;
+}
+
+
+.box2-footer{
+    margin-left: 5%;
+    width: 50%;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: large;
+    color: #FFA5A5;
+}
+
+.Foobtn{
+    border-color: #fff !important;
+    background: transparent !important;
+    color: white !important;
+    border-radius: 35px !important;
+}
+
+.Foobttn{
+    top: 50%;
+    align-items: center;
+    width: 225px;
+    z-index: 99;
+    /* position: fixed; */
+    left: 14%;
+    margin-left: 5%;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width:500px) {
+    .ConUS{
+        margin: auto;
+        font-size: medium;
+        zoom: 120%;
+    }
+    
+    .FooterNav{
+        width:fit-content;
+        position: relative;
+        bottom: -200px;
+        
+    }
+
+    .t-all{
+        text-align: left;
+    }
+
+    .UlFoot{
+        display: inline-block;
+        /* list-style: none; */
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+    .foot{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0.7rem 1rem;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    
+    .plane4{
+        margin-top: 200px;
+        width: 100%;
+        height: 900px;
+        background-color: #1D1C23;
+        /* transform: translate(10%); */
+    }
+
+    .copyright{
+        color: white;
+        position: relative;
+        bottom: -250px;
+        float: right;
+        margin-right: 9%;
+        padding-top: 20px;
+    }
+    
+}

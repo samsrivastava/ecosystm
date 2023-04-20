@@ -1,0 +1,105 @@
+.g-4-Rev{
+    width: 85%;
+    margin:auto;
+    padding-top: 10%;
+}
+
+
+
+.tri2{
+    position: absolute;
+    margin-top: 8.7%;
+    margin-left: 40.60%;
+    z-index: 99;
+}
+
+.ETV{
+    font-size: 400%;
+    font-weight: bold;
+}
+
+span1{
+    color: #FF0101;
+}
+
+.RevleftCol-Rev p{
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.RevrightCol-Rev{
+    
+    
+    height: auto;
+}
+
+.RevleftCol-Rev{
+    
+    
+    /* height: auto; */
+    padding-bottom: 5%;
+}
+
+
+.Revbttn{
+    float: left;
+    width: 300px;
+}
+
+.btn-primary{
+    --bs-btn-border-color: #b8b8b8;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-color: #141619;
+    --bs-btn-border-radius: 35px;
+}
+span{
+    width: 70%;
+    float: left;
+    margin-top: 2.5%;
+}
+
+span2{
+    float: right;
+    margin-top: 1%;
+    transform: rotate(270deg);
+}
+
+span2 img{
+    height: 75%;
+    width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .RevrightCol-Rev{
+        width: 100%;
+        height: auto;
+    }
+    .bttn{
+    
+        width: 80%;
+    }
+
+    span{
+        width: 50%;
+        float: left;
+        margin-top: 2.5%;
+        font-size: small;
+    }
+    .tri2{
+        display:none;
+    }
+
+    .ETV{
+        font-size: 300%;
+    }
+    
+}
+
+@media screen and (max-width: 1800px){
+
+    .tri2{
+        display:none;
+    }
+
+}

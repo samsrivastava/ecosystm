@@ -1,0 +1,103 @@
+.plane2{
+    margin-top: 200px;
+    width: 100%;
+    height: fit-content;
+    background-color: #1D1C23;
+    /* transform: translate(10%); */
+}
+
+.community{
+    width: 25%;
+    font-size: large;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 1px;
+    padding-right:1px;
+    height: 100px;
+}
+
+pill{
+    background-color: #585858;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.hel{
+    margin-top: 1%;
+    color: white;
+}
+
+.hel2{
+    margin-top: 30px;
+    width: 30%;
+    color: white;
+}
+
+.cdgrp{
+    margin-left: 5%;
+    margin-top: 6%;
+    margin-right: 5%;
+}
+
+.management-bttn{
+    
+    left: 37%;
+    /* margin-top: 5%; */
+    align-items: center;
+    width: 500px;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.manage-btn{
+    border-color: #fff !important;
+    background: transparent !important;
+    color: white !important;
+    border-radius: 35px !important;
+}
+
+@media screen and (max-width:500px) {
+    .hel{
+        margin-top: 1%;
+        color: white;
+        font-size: 300%;
+        text-align: center;
+    }
+
+    .management-bttn{
+    
+        left: 20%;
+        align-items: center;
+        width: 250px;
+        position: relative;
+        padding-bottom: 5%;
+    }
+
+    .hel2{
+        margin-top: 30px;
+        width: 80%;
+        color: white;
+        font-size: medium;
+    }
+
+    .community{
+        width: 75%;
+        font-size: large;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-left: 1px;
+        padding-right:1px;
+        height: 100px;
+    }
+    
+}

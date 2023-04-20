@@ -1,0 +1,108 @@
+.g-4{
+    width: 85%;
+    margin:auto;
+    padding-top: 10%;
+}
+
+.RevleftCol{
+    display: flex;
+    justify-content: center;
+}
+
+.phone{
+ font-size: x-large;
+}
+
+h1{
+    font-size: 400%;
+    font-weight: bold;
+}
+
+span1{
+    color: #FF0101;
+}
+
+.RevleftCol p{
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.RevrightCol{
+    
+    height: auto;
+}
+
+
+.Revbttn{
+    float: left;
+    width: 300px;
+}
+
+.btn-primary{
+    --bs-btn-border-color: #b8b8b8;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-color: #141619;
+    --bs-btn-border-radius: 35px;
+}
+span{
+    width: 70%;
+    float: left;
+    margin-top: 2.5%;
+}
+
+span2{
+    float: right;
+    margin-top: 1%;
+    transform: rotate(270deg);
+}
+
+span2 img{
+    height: 75%;
+    width: 75%;
+}
+
+@media screen and (max-width: 500px) {
+    .RevrightCol{
+        width: 100%;
+        height: auto;
+    }
+
+    .Kampd{
+        font-size: 300%;
+        
+    }
+
+    .RevleftCol{
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+    .bttn{
+    
+        width: 80%;
+    }
+
+    .phone{
+        font-size: medium;
+       }
+
+    span{
+        width: 50%;
+        float: left;
+        margin-top: 2.5%;
+        font-size: small;
+    }
+    .tri2{
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width: 1800px){
+
+    .tri2{
+        display:none;
+    }
+
+}

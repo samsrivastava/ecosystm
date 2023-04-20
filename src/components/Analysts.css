@@ -1,0 +1,137 @@
+.plane{
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+    background-color: #F4F6FB;
+    transform: translate(0%);
+}
+
+.f1{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+.f2{
+    position: absolute;
+    top: 90px;
+    left: 1100px;
+}
+.f3{
+    position: absolute;
+    top: 110px;
+    left: 1450px;
+}
+.f4{
+    position: absolute;
+    top: 500px;
+    left: 1600px;
+    z-index: 99;
+}
+.f5{
+    position: absolute;
+    top: 350px;
+    left: 1650px;
+}
+.f6{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    z-index: 99;
+}
+.f7{
+    position: absolute;
+    top: 280px;
+    left: 180px;
+    z-index: 99;
+}
+.f8{
+    position: absolute;
+    top: 650px;
+    left: 420px;
+    z-index: 99;
+}
+.f9{
+    position: absolute;
+    top: 650px;
+    left: 1420px;
+    z-index: 99;
+}
+.f10{
+    position: absolute;
+    top: 120px;
+    left: 820px;
+    z-index: 99;
+}
+.f11{
+    position: absolute;
+    top: 450px;
+    left: 220px;
+    z-index: 99;
+}
+
+.h1-box{
+    position:relative;
+    
+}
+
+.box{
+    margin-top: 50%;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.center-box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    height: 800px;
+}
+
+.box2{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.Anabttn{
+    align-items: center;
+    width: 100%;
+}
+
+.abtn{
+    margin: auto;
+    z-index: 99999;
+    width: 500px;
+    position: relative;
+}
+
+.clip{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width:500px) {
+    .box{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 80%;
+    }
+    .box2{
+        margin-top: 30px;
+        font-weight: bold;
+        font-size:large;
+    }
+
+    .abtn{
+        margin: auto;
+        z-index: 9;
+        width: 250px;
+        position: relative;
+    }
+}

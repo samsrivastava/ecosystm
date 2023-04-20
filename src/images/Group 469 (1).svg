@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="26.215" height="34.053" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_469" data-name="Group 469" transform="translate(-827 -946)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="34.5" cy="34.5" r="34.5" transform="translate(827 946)" fill="red"/>
+    <g id="Vector_Smart_Object" data-name="Vector Smart Object" transform="translate(876.108 964.166) rotate(90)">
+      <g id="Vector_Smart_Object-2" data-name="Vector Smart Object" transform="matrix(0, -1, 1, 0, 0.001, 26.215)">
+        <g id="Group_94" data-name="Group 94">
+          <g id="Group_93" data-name="Group 93" clip-path="url(#clip-path)">
+            <path id="Path_160" data-name="Path 160" d="M14.461,33.564,25.5,24.029a2.024,2.024,0,0,0,.205-2.884,2.173,2.173,0,0,0-2.922-.2L15.173,27.52V2.043a2.07,2.07,0,0,0-4.14,0V27.52L3.422,20.943a2.194,2.194,0,0,0-2.922.2A2.051,2.051,0,0,0,.7,24.029l11.04,9.535a2.132,2.132,0,0,0,2.717,0Z" transform="translate(0 0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <path id="Color_Overlay" data-name="Color Overlay" d="M21.145,25.715a2.193,2.193,0,0,1-.2-2.922l6.576-7.612H2.043a2.07,2.07,0,0,1,0-4.139H27.52L20.943,3.43a2.171,2.171,0,0,1,.2-2.921,2.024,2.024,0,0,1,2.885.2l9.534,11.04a2.127,2.127,0,0,1,.489,1.335,2.313,2.313,0,0,1-.489,1.381L24.03,25.51a2.088,2.088,0,0,1-1.574.7A1.909,1.909,0,0,1,21.145,25.715Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
