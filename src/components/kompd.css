@@ -10,7 +10,10 @@
 }
 
 .phone{
- font-size: x-large;
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7A7A7A;
 }
 
 h1{
@@ -37,6 +40,13 @@ span1{
 .Revbttn{
     float: left;
     width: 300px;
+}
+
+.txt-btn-kompd{
+    width: 70%;
+    float: left;
+    margin-top: 5.5%;
+    font-size: 15px;
 }
 
 .btn-primary{
@@ -73,6 +83,13 @@ span2 img{
         
     }
 
+    .txt-btn-kompd{
+        width: 67%;
+    float: left;
+    margin-top: 4.5%;
+    font-size: 11px;
+}
+
     .RevleftCol{
         width: 75%;
         height: auto;
@@ -83,8 +100,16 @@ span2 img{
         width: 80%;
     }
 
+    span2 img{
+        height: 50%;
+        width: 50%;
+    }
+
     .phone{
-        font-size: medium;
+        margin-top: 10%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7A7A7A;
        }
 
     span{

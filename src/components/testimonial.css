@@ -10,7 +10,7 @@
 .card-body-test {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-    color: var(--bs-card-color);
+    color: #7A7A7A;
     height: fit-content;
     padding-bottom: 5%;
     border-top: solid;
@@ -41,11 +41,10 @@
 
 .crdtxt{
     margin: 5% 5%;
-    font-size:larger;
-    font-weight: bold;
+    font-size:20px;
 }
 
-@media screen and (max-width:1650px) {
+@media screen and (max-width:1200px) {
     .myth{
         display: none;
     }

@@ -17,7 +17,7 @@ function RevTwoCol() {
         <h1 className="ETV">EcosystmTV<span1>.</span1></h1>
           <p>
             Interviews from business leaders, opinions from
-            Ecosystm Analysts and EcosystemTV <br /> Bytes.
+            Ecosystm Analysts and EcosystemTV Bytes.
           </p>
           <br />
           <center>

@@ -117,7 +117,7 @@
 
 @media screen and (max-width:500px) {
     .box{
-        margin: auto;
+        margin-top: 50px;
         width: 100%;
         text-align: center;
         font-size: 80%;
@@ -128,10 +128,41 @@
         font-size:large;
     }
 
+    .qtxt{
+        width: 65%;
+    float: left;
+    margin-top: 5.5%;
+    font-size: 11px;
+    }
+
     .abtn{
         margin: auto;
         z-index: 9;
         width: 250px;
         position: relative;
     }
+
+    .center-box {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        height: 800px;
+    }
+
+    .plane {
+        margin-top: 100px;
+        width: 100%;
+        height: 600px;
+        background-color: #F4F6FB;
+        transform: translate(0%);
+    }
+}
+
+@media screen and (max-width:1650px) {
+    .myths{
+        display: none;
+    }
+    
 }

@@ -10,8 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function LogoSlider() {
     return (
       <div className="slide">
+            <div className="side-line"><p className="side-text">Our Customers Include<span1>.</span1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
         <div className="inslider">
-            <div className="side-line col-sm-2"><p className="side-text">Our Customers <br/>Include<span1>.</span1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
           <div className="actualSlider animate">
            
                 <div className="logos">

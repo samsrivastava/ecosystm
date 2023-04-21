@@ -37,7 +37,7 @@ function Management() {
         </center>
           <div className="d-grid gap-2 management-bttn">
             <Button className="manage-btn " size="md">
-              <span>View All Ecosystm Gatherings</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="mbtn">View All Ecosystm Gatherings</span><span2><img className="LL" alt="" src={LL}/></span2>
             </Button>
           </div>
       </div>

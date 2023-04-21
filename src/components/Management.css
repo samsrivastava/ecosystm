@@ -79,6 +79,14 @@ pill{
         padding-bottom: 5%;
     }
 
+    .mbtn{
+        width: 69%;
+    float: left;
+    margin-top: 4.5%;
+    font-size: 11px;
+
+    }
+
     .hel2{
         margin-top: 30px;
         width: 80%;

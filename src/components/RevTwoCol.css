@@ -4,6 +4,12 @@
     padding-top: 10%;
 }
 
+.RevrightCol-Rev p{
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7A7A7A;
+}
 
 
 .tri2{
@@ -16,6 +22,7 @@
 .ETV{
     font-size: 400%;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 span1{
@@ -30,14 +37,12 @@ span1{
 
 .RevrightCol-Rev{
     
-    
     height: auto;
 }
 
 .RevleftCol-Rev{
     
     
-    /* height: auto; */
     padding-bottom: 5%;
 }
 
@@ -79,6 +84,13 @@ span2 img{
     
         width: 80%;
     }
+
+    .RevleftCol-Rev{
+    
+    margin-top: 70px;
+        padding-bottom: 5%;
+    }
+    
 
     span{
         width: 50%;

@@ -18,10 +18,11 @@ function FlushExample() {
           some of the biggest technology providers and enterprises from across
           industries to help make the best decisions in this evolving digital
           economy.</p>
-          <p>We bring the following services:</p> 
-          <p>• Research-Led Strategy</p>
-          <p>• Development Go-to-Market Strategy & Exceution for Technology Providers</p>
-          <p>• Digital Blueprint Development & Execution for Enterprises </p>
+          <p>We bring the following services:
+            <br/>
+          • Research-Led Strategy<br/>
+          • Development Go-to-Market Strategy & Exceution for Technology Providers<br/>
+          • Digital Blueprint Development & Execution for Enterprises </p>
           <p>Our core strength is based on the real-time market data augmented with some of
           the most relevant leading analysts comprising highly experienced
           analysts and consultants coupled with a team of very experienced
@@ -42,12 +43,15 @@ function FlushExample() {
         <Col>
           <Card>
             <Card.Body>
-            <div className="badge"><h3>1</h3></div>
+            <div className="badge"><h3 className="h3">1</h3></div>
+            <br/>
+            <br/>
               <Card.Title className="h1">Research & Insights</Card.Title>
               <Card.Text className="cText">
                 <p>• Real-time primary market data</p>
                 <p>• Deep analyst insight and reports</p>
                 <p>• Access to best-in-class analysts and industry experts</p>
+                
               </Card.Text>
             </Card.Body>
           </Card>
@@ -55,12 +59,15 @@ function FlushExample() {
         <Col>
           <Card>
             <Card.Body>
-            <div className="badge"><h3>2</h3></div>
+            <div className="badge"><h3 className="h3">2</h3></div>
+            <br/>
+            <br/>
             <Card.Title className="h1">Go-to-market</Card.Title>
               <Card.Text className="cText">
                 <p>• Research based thought-leadership to amplify your Go-To-Market messaging</p>
                 <p>• Facilitated Digital Leaders Roundtables</p>
                 <p>• Access to Ecosystm’s growing global tech buyer community</p>
+                
               </Card.Text>
             </Card.Body>
           </Card>
@@ -68,7 +75,9 @@ function FlushExample() {
         <Col>
           <Card>
             <Card.Body>
-            <div className="badge"><h3>3</h3></div>
+            <div className="badge"><h3 className="h3">3</h3></div>
+            <br/>
+            <br/>
             <Card.Title className="h1">Advisory</Card.Title>
               <Card.Text className="cText">
                 <p>• Market Analysis & Competitive Assessments</p>
@@ -83,7 +92,9 @@ function FlushExample() {
         <Col>
           <Card>
             <Card.Body>
-              <div className="badge"><h3>4</h3></div>
+              <div className="badge"><h3 className="h3">4</h3></div>
+              <br/>
+            <br/>
             <Card.Title className="h1">End-user Consulting</Card.Title>
               <Card.Text className="cText">
                 <p>• Strategy Development</p>

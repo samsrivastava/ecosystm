@@ -20,7 +20,15 @@ span1{
 .leftCol-twocol p{
     margin-top: 10%;
     font-weight: 400;
-    font-size: x-large;
+    font-size: 20px;
+    color: #7A7A7A;
+}
+
+.txt-btn{
+    width: 70%;
+    float: left;
+    margin-top: 5.5%;
+    font-size: 15px;
 }
 
 .rightCol-twocol{
@@ -67,6 +75,18 @@ span2 img{
     .bttn{
     
         width: 80%;
+    }
+
+    .card-title {
+        margin-bottom: var(--bs-card-title-spacer-y);
+        font-size: 1.5rem;
+    }
+
+    .txt-btn{
+        width: 67%;
+    float: left;
+    margin-top: 4.5%;
+    font-size: 11px;
     }
 
     .leftCol-twocol p{

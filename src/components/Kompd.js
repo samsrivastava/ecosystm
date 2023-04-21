@@ -9,7 +9,7 @@ import LL from "../images/Group\ 469\ \(1\).svg";
 function Kompd() {
   return (
     <>
-      <Row xs={1} md={2} className="g-4">
+      <Row xs={1} md={2} className="g-4" id="kampd">
         <Col className="RevleftCol">
         <img className="img-fluid" alt="" src={kamp} />
         </Col>
@@ -17,9 +17,7 @@ function Kompd() {
         <h1 className="Kampd">Kampd<span1>.</span1></h1>
           <p className="phone">
             Kampd, short for "Knowledge Amplified" is platform for professional
-            <br />
             communities and content. Join the Kampd to build
-            <br/>
             your own community around shared interest.
           </p>
           <br />
@@ -33,7 +31,7 @@ function Kompd() {
       e.preventDefault();
       window.location.href='https://www.kampd.com/';
       }} className="Revbtn" size="lg">
-              <span>Visit the Kampd Website</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="txt-btn-kompd">Visit the Kampd Website</span><span2><img className="LL" alt="" src={LL}/></span2>
             </Button>
           </div>
           </center>

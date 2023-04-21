@@ -30,11 +30,11 @@ function OffcanvasNavbar() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body >
-                <Nav className="justify-content-end flex-grow-1 pe-3 nav-menu">
+                <Nav className="justify-content-end flex-grow-1 pe-1 nav-menu">
                 <NavDropdown
               className="nav-links"
               id={`offcanvasNavbarDropdown-expand-${expand}`}
-              title="Home"
+              title="About Us"
               menuVariant="dark"
             >
               <NavDropdown.Item
@@ -76,7 +76,7 @@ function OffcanvasNavbar() {
             >
               <NavDropdown.Item
                 className="nav-links-dropdown"
-                href="https://blog.ecosystm360.com/"
+                href="#insights"
               >
                 Insights
               </NavDropdown.Item>
@@ -102,7 +102,7 @@ function OffcanvasNavbar() {
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="nav-links-dropdown"
-                href="https://www.kampd.com/"
+                href="#kampd"
               >
                 Kampd
               </NavDropdown.Item>

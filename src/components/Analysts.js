@@ -18,17 +18,17 @@ function Analysts() {
   return (
     <>
       <div className="plane" id="analysts">
-        <img alt="" src={f1} className="f1 myth"/>
-        <img alt="" src={f2} className="f2 myth"/>
-        <img alt="" src={f3} className="f3 myth"/>
-        <img alt="" src={f4} className="f4 myth"/>
-        <img alt="" src={f5} className="f5 myth"/>
-        <img alt="" src={f6} className="f6 myth"/>
-        <img alt="" src={f7} className="f7 myth"/>
-        <img alt="" src={f8} className="f8 myth"/>
-        <img alt="" src={f9} className="f9 myth"/>
-        <img alt="" src={f10} className="f10 myth"/>
-        <img alt="" src={f11} className="f11 myth"/>
+        <img alt="" src={f1} className="f1 myths"/>
+        <img alt="" src={f2} className="f2 myths"/>
+        <img alt="" src={f3} className="f3 myths"/>
+        <img alt="" src={f4} className="f4 myths"/>
+        <img alt="" src={f5} className="f5 myths"/>
+        <img alt="" src={f6} className="f6 myths"/>
+        <img alt="" src={f7} className="f7 myths"/>
+        <img alt="" src={f8} className="f8 myths"/>
+        <img alt="" src={f9} className="f9 myths"/>
+        <img alt="" src={f10} className="f10 myths"/>
+        <img alt="" src={f11} className="f11 myths"/>
         <center className="center-box">
         <div className="box"><h1 className="h1-box">Ecosystm Analysts<span1>.</span1></h1>
         <br/>
@@ -43,7 +43,7 @@ function Analysts() {
       e.preventDefault();
       window.location.href='https://www.ecosystm360.com/#/analyst-list';
       }}  className="abtn" size="lg">
-              <span>View All Ecosystm Analysts</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="qtxt">View All Ecosystm Analysts</span><span2><img className="LL" alt="" src={LL}/></span2>
             </Button>
           </div>
         </div>

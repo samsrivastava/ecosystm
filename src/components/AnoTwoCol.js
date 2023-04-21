@@ -17,7 +17,7 @@ function AnoTwoCol() {
           </h1>
           <p className="psys">
             Ecosystm Consulting levereges a wealth of technical, functional and  
-            industry-specificexpertise to craft customised thought models and frameworks
+            industry-specific expertise to craft customised thought models and frameworks
             that deliver measurable results for our valued customers.
           </p>
           <br />
