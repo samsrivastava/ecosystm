@@ -1,0 +1,33 @@
+.Plan{
+    width: 100%;
+    height: fit-content;
+    padding: 6% 6%;
+    background-color: #F4F6FB;
+    margin-top: 10%;
+}
+
+.sect-head{
+    height:150px
+}
+
+.end-row{
+    display: flex;
+    justify-content: center;
+}
+
+.sect{
+    background-color: #3C3A47;
+    font-size: 32px;
+    color: white;
+    border-bottom: solid;
+    border-width: 7px;
+    border-bottom-color: #82DECF;
+}
+
+@media (min-width: 576px){
+.col-sm-3 {
+    flex: 0 0 auto;
+    width: 23%;
+    margin: 1%;
+}
+}

@@ -28,7 +28,7 @@ function AnoTwoCol() {
           <center>
           <div className="d-grid gap-2 bttn">
             <Button className="btn" size="lg">
-              <span>Learn More</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="ano-txt-btn">Learn More</span><span2><img className="LL" alt="" src={LL}/></span2>
             </Button>
           </div>
           </center>

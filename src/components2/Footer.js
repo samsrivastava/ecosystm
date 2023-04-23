@@ -1,23 +1,22 @@
 import "./Footer.css";
 import Button from 'react-bootstrap/Button';
 import LLA from "../images/Group 467.svg";
-import Container from 'react-bootstrap/Container';
 import linkedIn from "../images/LinkedIn.svg";
 import twitter from "../images/Twitter.svg";
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import LogoCopy from "../images/Logo copy.svg"
 import footimg from "../images/Layer-511-copy.png"
+
 
 
 
 function Footer() {
     return (
       <>
-        <div className="plane4">
-        <div className="center-box-footer row">
+        <div className="plane5">
+        <div className="con-center-box-footer row">
         <div className="box-footer col-sm-6"><h1 className="learn">Learn More.</h1>
-        <div className="box2-footer">Want to understand more about how Ecosystm can help, please visit our contact us page and we will be in touch!</div>
+        <div className="con-box2-footer col-sm-6">Want to understand more about how Ecosystm can help, please visit our contact us page and we will be in touch!</div>
         <div className="d-grid gap-2 Foobttn btn-primary-footer mt-5">
             <Button onClick={(e) => {
       e.preventDefault();

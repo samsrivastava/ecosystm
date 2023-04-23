@@ -23,6 +23,8 @@
 .name{
     font-size: 25px;
     font-weight: bold;
+    height: 300px;
+    
 }
 
 
@@ -33,9 +35,9 @@
 
 
 .cdgrp{
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: 3%;
-    margin-right: 5%;
+    margin-right: 0%;
     padding-bottom: 5%;
 }
 

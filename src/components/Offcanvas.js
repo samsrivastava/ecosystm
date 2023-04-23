@@ -87,7 +87,7 @@ function OffcanvasNavbar() {
                 EcosystmTV
               </NavDropdown.Item>
             </NavDropdown>
-                  <Nav.Link className="nav-links" href="#action2">Consulting</Nav.Link>
+                  <Nav.Link className="nav-links" href="/consulting">Consulting</Nav.Link>
                   <NavDropdown
               className="nav-links"
               id={`offcanvasNavbarDropdown-expand-${expand}`}

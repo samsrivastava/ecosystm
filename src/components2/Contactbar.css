@@ -1,0 +1,27 @@
+.ContactbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    /* position: fixed; */
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    /* z-index: 9999; */
+    /* position: absolute; */
+    background-color: #2A2E34;
+    border-radius: 20px;
+    
+}
+
+.cbar{
+    width: 100%;
+    position: absolute;
+    z-index: 99999;
+    margin-top: -55px;
+    height: fit-content;
+}
+
+.ctext{
+    font-weight: bold;
+}

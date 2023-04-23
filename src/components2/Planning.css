@@ -1,0 +1,30 @@
+.Plan{
+    width: 100%;
+    height: fit-content;
+    padding: 8% 8%;
+    background-color: #F4F6FB;
+    margin-top: 10%;
+}
+
+.image-div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.left-div{
+    margin: 10px 0px;
+    padding-left: 2%;
+    margin-left: 8%;
+
+}
+
+.right-div {
+    margin: 10px 0px;
+    padding-left: 12%;
+}
+
+.image-div{
+    display: flex;
+    justify-items: center;
+}

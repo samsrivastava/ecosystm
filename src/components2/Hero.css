@@ -4,12 +4,10 @@
     position: relative;
 }
 
-.Line{
+.Line2{
     position: absolute;
-    top: 54%;
-    right: 49%;
-    text-align: left;
-    /* width: 15%; */
+    /* text-align: right; */
+    padding-left: 175px;
 }
 
 .hero-img{
@@ -19,31 +17,29 @@
     background-color: #F4F6FB;
 }
 
-.hero-text{
+.con-hero-text{
     position: absolute;
     top: 37%;
     text-align: center;
     /* transform: translate(-50%, -50%); */
     width: 100%;
 }
-.hero-text h1 spanx{
+.con-hero-text h1 spanx{
     font-size: 6rem;
     font-weight: 800;
-    background: #FF0101;
+    background: #1A6659;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.fullstop{
-    color: #FF0101;
-}
-
-.hero-text h1{
+.con-hero-text h1{
     font-size: 5rem;
     font-weight: 800;
+    width: fit-content;
+    margin: auto;
     background: #0F0F0F;
     -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -54,7 +50,7 @@
         /* padding: 10px 20px; */
         font-size: 2rem;
     }
-    .hero-text{
+    .con-hero-text{
         padding-top: 8%;
         position: absolute;
         top: 37%;
@@ -64,7 +60,7 @@
         font-size: 2rem;
     }
 
-    .hero-text h1 spanx{
+    .con-hero-text h1 spanx{
         font-size: 2rem;
         font-weight: 800;
         background: #FF0101;

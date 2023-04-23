@@ -8,11 +8,13 @@ import Tri2 from "../images/Triangle-2.png"
 
 function RevTwoCol() {
   return (
-    <><img className="tri2" alt="" src={Tri2} />
+    <>
       <Row xs={1} md={2} className="g-4-Rev" id="EcosystmTV">
         <Col className="RevleftCol-Rev">
-        <img className="img-fluid" alt="" src={EcoTV} />
+
+        <img className="img-fluid" alt="" src={EcoTV}></img>
         </Col>
+      
         <Col className="RevrightCol-Rev">
         <h1 className="ETV">EcosystmTV<span1>.</span1></h1>
           <p>
@@ -30,7 +32,7 @@ function RevTwoCol() {
       e.preventDefault();
       window.location.href='https://blog.ecosystm360.com/ecosystm-tv/';
       }} className="Revbtn" size="lg">
-              <span>Watch EcosystmTV</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="rev-txt-btn">Watch EcosystmTV</span><span2><img className="LL" alt="" src={LL}/></span2>
             </Button>
           </div>
           </center>

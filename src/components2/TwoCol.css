@@ -1,10 +1,11 @@
-.g-4-Ano{
+.g-4-twocol{
     margin-top: 10%;
     width: 85%;
     /* transform: translate(7.5%); */
     margin:auto;
     padding-top: 10%;
 }
+
 
 
 h1{
@@ -16,17 +17,36 @@ span1{
     color: #FF0101;
 }
 
-.leftCol-Ano p{
+.leftCol-twocol p{
     margin-top: 10%;
     font-weight: 400;
     font-size: 20px;
     color: #7A7A7A;
 }
 
-.rightCol-Ano{
+.leftCol-twocol p{
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7A7A7A;
+}
+.txt-btn{
+    width: 70%;
+    float: left;
+    margin-top: 5.5%;
+    font-size: 15px;
+}
+
+.con-twoCol{
+    width: 100%;
+    padding: 15% 0%;
+}
+
+.con-rightCol-twocol{
     /* width: 50%; */
-    transform: translate(0%);
+    /* transform: translate(20%); */
     height: auto;
+    background-color: #F4F6FB;
 }
 
 
@@ -48,12 +68,6 @@ span{
     margin-top: 2.5%;
 }
 
-.ano-txt-btn{
-    width: 70%;
-    float: left;
-    margin-top: 4.5%;
-}
-
 span2{
     float: right;
     margin-top: 1%;
@@ -65,10 +79,8 @@ span2 img{
     width: 75%;
 }
 
-.Log{
-    position: fixed;
-    padding: 16%;
-    margin-top: 20%;
+.con-sys{
+    line-height: 0.7;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,18 +93,19 @@ span2 img{
         width: 80%;
     }
 
-    .ano-txt-btn{
-        width: 50%;
-        float: left;
-        margin-top: 2.5%;
-        font-size: small;
+    .card-title {
+        margin-bottom: var(--bs-card-title-spacer-y);
+        font-size: 1.5rem;
     }
 
-    .Esys{
-        font-size: 300%;
+    .txt-btn{
+        width: 67%;
+    float: left;
+    margin-top: 4.5%;
+    font-size: 11px;
     }
 
-    .leftCol-Ano p{
+    .leftCol-twocol p{
         margin-top: 10%;
         font-weight: 400;
         font-size: medium;

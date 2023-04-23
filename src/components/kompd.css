@@ -118,16 +118,5 @@ span2 img{
         margin-top: 2.5%;
         font-size: small;
     }
-    .tri2{
-        display:none;
-    }
-    
 }
 
-@media screen and (max-width: 1800px){
-
-    .tri2{
-        display:none;
-    }
-
-}

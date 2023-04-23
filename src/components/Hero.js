@@ -11,7 +11,7 @@ function Hero() {
         />
         <div className="hero-text">
             <h1>Trusted Market</h1>
-            <h1>Research and Insights<spanx>.</spanx></h1>
+            <h1>Research and Insights<pappu className="fullstop">.</pappu></h1>
         </div>
             <img className="Line" src={Line}/>
       </div>

@@ -4,13 +4,39 @@
     padding-top: 10%;
 }
 
-.RevrightCol-Rev p{
+.con-rev-p{
     margin-top: 10%;
     font-weight: 400;
     font-size: 20px;
     color: #7A7A7A;
 }
 
+.h3-con{
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.con-rev-p1{
+    
+    font-weight: 400;
+    font-size: 20px;
+    color: #7A7A7A;
+    
+}
+
+spanx {
+    font-size: 6rem;
+    font-weight: 800;
+    background: #1A6659;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.value{
+    margin:auto;
+}
 
 .tri2{
     position: absolute;
@@ -19,10 +45,10 @@
     
 }
 
-.ETV{
+.con-ETV{
     font-size: 400%;
     font-weight: bold;
-    margin-top: 20px;
+    line-height: 0.7;
 }
 
 span1{
@@ -35,9 +61,17 @@ span1{
     font-size: x-large;
 }
 
+.con-RevleftCol-Rev{
+    background-color: #F4F6FB;
+    display: flex;
+    justify-items: center;
+
+}
+
 .RevrightCol-Rev{
-    
     height: auto;
+    padding-left: 10%;
+
 }
 
 .RevleftCol-Rev{
@@ -45,9 +79,10 @@ span1{
 }
 
 
-.Revbttn{
+.con-bttn{
     float: left;
     width: 300px;
+    margin-top: 10%;
 }
 
 .btn-primary{
@@ -73,10 +108,11 @@ span2 img{
     width: 75%;
 }
 
-.rev-txt-btn{
+.con-txt-btn{
     width: 70%;
     float: left;
     margin-top: 4.5%;
+    color: #9A9999;
     
 }
 
@@ -107,7 +143,7 @@ span2 img{
         /* display:none; */
     }
 
-    .ETV{
+    .con-ETV{
         font-size: 300%;
     }
     

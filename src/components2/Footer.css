@@ -1,5 +1,4 @@
-.plane4{
-    margin-top: 200px;
+.plane5{
     width: 100%;
     height: 900px;
     background-color: #1D1C23;
@@ -68,39 +67,35 @@
     zoom: 120%;
 }
 
-.fooimg{
-    position: relative;
-    padding-bottom: 10px;
-}
-
 .box-footer{
     margin-left: 5%;
     padding-top: 3%;
     margin-top: 50%;
     margin: auto;
+
 }
 
-.center-box-footer{
+.con-center-box-footer{
     border-radius: 30px;
     top: 20%;
     margin: auto auto;
     width: 80%;
     height: fit-content;
     text-align: left;
-    background-color: #FF0101;
+    background-color: #1A6659;
     position: relative;
     color: white;
     margin-bottom: 20px;
 }
 
 
-.box2-footer{
+.con-box2-footer{
     margin-left: 5%;
     width: 50%;
     margin-top: 30px;
     font-weight: bold;
     font-size: large;
-    color: #FFA5A5;
+    color: white;
 }
 
 .Foobtn{
@@ -158,7 +153,7 @@
     .plane4{
         margin-top: 200px;
         width: 100%;
-        height: 900px;
+        height:1100px;
         background-color: #1D1C23;
         /* transform: translate(10%); */
     }
