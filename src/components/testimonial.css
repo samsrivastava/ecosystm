@@ -1,7 +1,7 @@
 .plane3{
     /* margin-top: 200px; */
     margin: auto;
-    width: 80%;
+    width: 90%;
     height: fit-content;
     /* transform: translate(10%); */
     padding-top: 5%;
@@ -71,6 +71,7 @@
     .name{
         font-size: 15px;
         font-weight: bold;
+        height: fit-content;
     }
 }
 

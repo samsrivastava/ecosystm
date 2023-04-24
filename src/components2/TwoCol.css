@@ -7,11 +7,10 @@
 }
 
 
-
-h1{
-    font-size: 400%;
-    font-weight: bold;
+.con-sys-fullstop{
+    font-size: 110%;
 }
+
 
 span1{
     color: #FF0101;
@@ -38,15 +37,14 @@ span1{
 }
 
 .con-twoCol{
-    width: 100%;
-    padding: 15% 0%;
+    margin: auto;
 }
 
 .con-rightCol-twocol{
-    /* width: 50%; */
-    /* transform: translate(20%); */
     height: auto;
     background-color: #F4F6FB;
+    display: flex;
+    justify-items: center;
 }
 
 
@@ -74,6 +72,10 @@ span2{
     transform: rotate(270deg);
 }
 
+.con-sys-para{
+    padding-right: 20%;
+}
+
 span2 img{
     height: 75%;
     width: 75%;
@@ -81,6 +83,7 @@ span2 img{
 
 .con-sys{
     line-height: 0.7;
+    font-size: 250%;
 }
 
 @media screen and (max-width: 768px) {

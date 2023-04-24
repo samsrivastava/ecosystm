@@ -47,10 +47,9 @@ pill{
 
 .management-bttn{
     
-    left: 37%;
     /* margin-top: 5%; */
     align-items: center;
-    width: 500px;
+    width: 100%;
     position: relative;
     padding-bottom: 5%;
 }
@@ -60,6 +59,8 @@ pill{
     background: transparent !important;
     color: white !important;
     border-radius: 35px !important;
+    width: 30%;
+    margin: auto;
 }
 
 @media screen and (max-width:500px) {
@@ -70,11 +71,19 @@ pill{
         text-align: center;
     }
 
+    .manage-btn{
+        border-color: #fff !important;
+        background: transparent !important;
+        color: white !important;
+        border-radius: 35px !important;
+        width: 70%;
+        margin: auto;
+    }
+
     .management-bttn{
     
-        left: 20%;
         align-items: center;
-        width: 250px;
+        width: 100%;
         position: relative;
         padding-bottom: 5%;
     }

@@ -6,7 +6,10 @@ function Hero() {
   return (
     <>
       <div className="hero">
-        <img className="hero-img" alt="heroImg"
+        <img onClick={(e) => {
+      e.preventDefault();
+      window.location.href='/';
+      }} className="hero-img" alt="heroImg"
         src={HeroImg}
         />
         <div className="con-hero-text">

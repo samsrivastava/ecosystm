@@ -12,9 +12,9 @@ function TwoCol() {
         <Col className="leftCol-twocol">
           <h1 className="con-sys">The Ecosystm</h1>
           <h1 className="con-sys">
-            Consulting Matrix<spanx>.</spanx>
+            Consulting Matrix<spanx className="con-sys-fullstop">.</spanx>
           </h1>
-          <p>
+          <p className="con-sys-para">
             Organisations are experiencing challenges at a velocity never seen
             before. The vision for Ecosystm Consulting is to help businesses
             navigate transformation challenges in the digital age. <br/><br/>The Ecosystm

@@ -8,7 +8,7 @@ function Planning() {
         <div className="upper-div row">
           <div className="right-div col-sm-4">
             <div className="card-div">
-              <h4 style={{color: "#407066"}}>AIM WELL</h4>
+              <h4 className="plans" style={{color: "#407066"}}>AIM WELL</h4>
               <h3 className="h3-con">Service Areas:</h3>
               <p1 className="con-rev-p1">
               <s style={{color: "#407066"}}>➜</s> Design-thinking and Innovation Ideation
@@ -29,7 +29,7 @@ function Planning() {
           </div>
           <div className="left-div col-sm-4">
           <div className="card-div">
-              <h4 style={{color: "#407066"}}>PLAN WELL</h4>
+              <h4 className="plans" style={{color: "#407066"}}>PLAN WELL</h4>
               <h3 className="h3-con">Service Areas:</h3>
               <p1 className="con-rev-p1">
               <s style={{color: "#407066"}}>➜</s> Strategic Planning Frameworks
@@ -56,7 +56,7 @@ function Planning() {
 
           <div className="right-div col-sm-4">
             <div className="card-div">
-              <h4 style={{color: "#407066"}}>IMPLEMENT WELL</h4>
+              <h4 className="plans" style={{color: "#407066"}}>IMPLEMENT WELL</h4>
               <h3 className="h3-con">Service Areas:</h3>
               <p1 className="con-rev-p1">
               <s style={{color: "#407066"}}>➜</s> Independent Advisory Support
@@ -80,7 +80,7 @@ function Planning() {
           </div>
           <div className="left-div col-sm-4">
           <div className="card-div">
-              <h4 style={{color: "#407066"}}>BUY WELL</h4>
+              <h4 className="plans" style={{color: "#407066"}}>BUY WELL</h4>
               <h3 className="h3-con">Service Areas:</h3>
               <p1 className="con-rev-p1">
               <s style={{color: "#407066"}}>➜</s> RFX Design

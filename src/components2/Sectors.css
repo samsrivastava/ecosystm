@@ -17,11 +17,15 @@
 
 .sect{
     background-color: #3C3A47;
-    font-size: 32px;
+    font-size: 20px;
     color: white;
     border-bottom: solid;
     border-width: 7px;
     border-bottom-color: #82DECF;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    padding-bottom: 1.5%;
+    padding-right: 1.5%;
 }
 
 @media (min-width: 576px){

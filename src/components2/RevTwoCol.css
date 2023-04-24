@@ -45,8 +45,12 @@ spanx {
     
 }
 
+.con-ETV-fullstop{
+    font-size:110%
+}
+
 .con-ETV{
-    font-size: 400%;
+    font-size: 250%;
     font-weight: bold;
     line-height: 0.7;
 }
@@ -115,6 +119,13 @@ span2 img{
     color: #9A9999;
     
 }
+
+@media screen and (max-width: 500px){
+    span2 img {
+        height: 50%;
+        width: 50%;
+    }
+    }
 
 @media screen and (max-width: 768px) {
     .RevrightCol-Rev{

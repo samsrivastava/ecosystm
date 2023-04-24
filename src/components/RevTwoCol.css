@@ -76,7 +76,7 @@ span2 img{
 .rev-txt-btn{
     width: 70%;
     float: left;
-    margin-top: 4.5%;
+    margin-top: 3.5%;
     
 }
 
@@ -112,6 +112,15 @@ span2 img{
     }
     
 }
+
+@media screen and (max-width: 500px){
+span2 img {
+    height: 50%;
+    width: 50%;
+}
+}
+
+
 
 @media screen and (max-width: 1800px){
 

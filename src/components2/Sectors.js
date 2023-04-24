@@ -24,7 +24,7 @@ function Sectors() {
         <div className="sect col-sm-3"><img alt="" src={img8}/><br/>Utilities & Renewables</div>
         <div className="end-row row"><div className="sect col-sm-3"><img alt="" src={img9}/><br/>Retail & CPG</div>
         <div className="sect col-sm-3"><img alt="" src={img10}/><br/>Manufacturing & Supply Chain</div>
-        <div className="sect col-sm-3"><img alt="" src={img11}/><br/>Manufacturing & Supply Chain</div></div>
+        <div className="sect col-sm-3"><img alt="" src={img11}/><br/>Travel & Transport</div></div>
       </div>
     </>
   );

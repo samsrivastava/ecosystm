@@ -17,7 +17,7 @@ function RevTwoCol() {
         <Col className="RevrightCol-Rev">
           <h1 className="con-ETV">Strategy to</h1>
           <h1 className="con-ETV">
-            Execution<spanx>.</spanx>
+            Execution<spanx className="con-ETV-fullstop">.</spanx>
           </h1>
           <p className="con-rev-p">
             Ecosystm Consulting’s insights to execution approach guides clients

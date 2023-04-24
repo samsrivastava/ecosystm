@@ -8,7 +8,10 @@ class Navbar extends Component {
     return (
       <nav className="NavbarItems">
         <h4 className="navbar-logo">
-          <img src={Logo} alt="Ecosystm" />
+          <img src={Logo} onClick={(e) => {
+      e.preventDefault();
+      window.location.href='/';
+      }} alt="Ecosystm" />
         </h4>
         <ul className="nav-menu">
           <li>

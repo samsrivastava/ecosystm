@@ -1,6 +1,4 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -14,7 +12,10 @@ function OffcanvasNavbar() {
         <Navbar key={expand} expand={expand} className="mb-3 NavbarItems">
           <Container fluid>
           <h4 className="navbar-logo">
-          <img src={Logo} alt="Ecosystm"/>
+          <img src={Logo} onClick={(e) => {
+      e.preventDefault();
+      window.location.href='/';
+      }} alt="Ecosystm"/>
         </h4>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
