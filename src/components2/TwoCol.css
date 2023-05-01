@@ -96,6 +96,11 @@ span2 img{
         width: 80%;
     }
 
+    .con-sys{
+        line-height: 0.7;
+        font-size: 200%;
+    }
+
     .card-title {
         margin-bottom: var(--bs-card-title-spacer-y);
         font-size: 1.5rem;
@@ -119,6 +124,10 @@ span2 img{
         float: left;
         margin-top: 2.5%;
         font-size: small;
+    }
+
+    .con-twoCol{
+        margin: auto;
     }
     
 }

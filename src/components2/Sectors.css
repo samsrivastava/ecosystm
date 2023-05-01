@@ -10,6 +10,21 @@
     height:150px
 }
 
+.img1{
+    width: 80px;
+    height: 80px
+}
+
+.jagah{
+    display: none;
+}
+
+
+.img6{
+    width: 80px;
+    height: 80px
+}
+
 .end-row{
     display: flex;
     justify-content: center;
@@ -34,4 +49,61 @@
     width: 23%;
     margin: 1%;
 }
+
 }
+
+@media screen and (max-width: 500px){
+    .sect-head {
+        font-size: 50%;
+    }
+
+    .jagah{
+        display: block;
+    }
+
+    .sect-head {
+        display: block;
+        text-align: -webkit-left;
+    }
+    .sect{
+        width: 75%;
+        background-color: #3C3A47;
+        font-size: 20px;
+        color: white;
+        border-bottom: solid;
+        border-width: 7px;
+        border-bottom-color: #82DECF;
+        padding-top: 3.5%;
+        padding-left: 3.5%;
+        padding-bottom: 2.5%;
+        padding-right: 2.5%;
+        margin: 20px auto;
+    }
+
+    .sect-head{
+        height:90px;
+        margin-left: 30px;
+    }
+
+    .Plan{
+        width: 100%;
+        height: fit-content;
+        padding: 6% 6%;
+        background-color: #F4F6FB;
+        margin-top: 10%;
+        padding-bottom: 20%;
+        padding-left: 20px;
+        margin-left: 0;
+    }
+
+    .end-row{
+        display: block;
+        width: 100%;
+        width: 107%;
+        max-width: 107%;
+        padding-left: 14px;
+    
+    }
+
+    
+    }

@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 
-.nav-menu{
+.nav-menu-con{
     display: grid;
     grid-template-columns: repeat(6,auto);
     grid-gap: 0px;
@@ -22,14 +22,7 @@
     align-items: center;
 }
 
-.nav-links{
-    text-decoration: none;
-    color: #474848;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 0.7rem 0.8rem;
-    white-space: nowrap;
-}
+
 
 .dropdown-menu-dark {
     --bs-border-color: transparent;
@@ -37,14 +30,7 @@
     --bs-dropdown-link-hover-color: black;
 }
 
-.nav-links-dropdown{
-    text-decoration: none;
-    color: #474848;
-    font-size: 18px;
-    font-weight: 600;
-    /* padding: 0.7rem 1rem; */
-    white-space: nowrap;
-}
+
 
 .dropdown-menu-dark {
     --bs-dropdown-color: #474848;
@@ -69,33 +55,20 @@
     .NavbarItems{
         z-index: 99;
     }
-    .nav-menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: 90px;
-        align-items: stretch;
-        margin: 0;
-        transition: 0.3s ease-in-out;
+    
+
+    .nav-logo{
+        width:55%
+
     }
 
-    .nav-menu.active{
-        background-color: #d6d7d8;
-        left: 0;
-        opacity: 1;
-        z-index: -1;
-        transition: 0.3s ease-in-out;
+    .nav-logo2{
+        width:55%;
+        float: right;
     }
 
-    .nav-links{
-        display: block;
-        width: 100%;
-        font-size: 1.2rem;
-        margin-left: 20px;
-        color: #FF0000;
+    .navbar-logo{
+        cursor: pointer;
 
     }
 

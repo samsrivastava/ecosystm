@@ -60,15 +60,25 @@
         font-size: 2rem;
     }
 
-    .con-hero-text h1 spanx{
+    .con-hero-text h1{
         font-size: 2rem;
         font-weight: 800;
-        background: #FF0101;
+        width: fit-content;
+        margin: auto;
+        background: #0F0F0F;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
-    .Line{
+    .con-hero-text h1 spanx{
+        font-size: 2rem;
+        font-weight: 800;
+        background: #1A6659;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .Line2{
         display: none;
         
     }

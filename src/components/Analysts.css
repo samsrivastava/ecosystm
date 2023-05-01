@@ -8,65 +8,65 @@
 
 .f1{
     position: absolute;
-    top: 150px;
-    left: 400px;
+    top: 17%;
+    left: 17%;
 }
 
 .f2{
     position: absolute;
-    top: 90px;
-    left: 1100px;
+    top: 9%;
+    left: 60%;
 }
 .f3{
     position: absolute;
-    top: 110px;
-    left: 1450px;
+    top: 15%;
+    left: 75%;
 }
 .f4{
     position: absolute;
-    top: 500px;
-    left: 1600px;
+    top: 68%;
+    left: 82%;
     z-index: 99;
 }
 .f5{
     position: absolute;
-    top: 350px;
-    left: 1650px;
+    top: 50%;
+    left: 85%;
 }
 .f6{
     position: absolute;
-    top: 600px;
-    left: 100px;
+    top: 70%;
+    left: 6%;
     z-index: 99;
 }
 .f7{
     position: absolute;
-    top: 280px;
-    left: 180px;
+    top: 35%;
+    left: 10%;
     z-index: 99;
 }
 .f8{
     position: absolute;
-    top: 650px;
-    left: 420px;
+    top: 80%;
+    left: 23%;
     z-index: 99;
 }
 .f9{
     position: absolute;
-    top: 650px;
-    left: 1420px;
+    top: 80%;
+    left: 70%;
     z-index: 99;
 }
 .f10{
     position: absolute;
-    top: 120px;
-    left: 820px;
+    top: 12%;
+    left: 42%;
     z-index: 99;
 }
 .f11{
     position: absolute;
-    top: 450px;
-    left: 220px;
+    top: 55%;
+    left: 12%;
     z-index: 99;
 }
 
@@ -93,8 +93,9 @@
 
 .box2{
     margin-top: 5px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size:x-large;
+    color: #7A7A7A;
 }
 
 .Anabttn{
@@ -124,8 +125,9 @@
     }
     .box2{
         margin-top: 30px;
-        font-weight: bold;
+        /* font-weight: bold; */
         font-size:large;
+        color: #7A7A7A;
     }
 
     .qtxt{
@@ -160,7 +162,7 @@
     }
 }
 
-@media screen and (max-width:1650px) {
+@media screen and (max-width:1000px) {
     .myths{
         display: none;
     }

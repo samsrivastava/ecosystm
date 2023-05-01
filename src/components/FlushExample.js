@@ -11,7 +11,7 @@ function FlushExample() {
     <Accordion flush defaultActiveKey={"1"}>
       <Accordion.Item className="AItem" eventKey="0">
         <Accordion.Header>
-          <span>About Ecosystm<span1>.</span1></span>
+          <span className="Ahead">About Ecosystm<span1>.</span1></span>
         </Accordion.Header>
         <Accordion.Body className="abody">
           <p>With over 130 enterprise clients around the world, Ecosystm works with
@@ -35,7 +35,7 @@ function FlushExample() {
       </Accordion.Item>
       <Accordion.Item eventKey="1" id="OurOfferings">
         <Accordion.Header>
-          <span>Our Offerings<span1>.</span1></span>
+          <span className="Ahead">Our Offerings<span1>.</span1></span>
         </Accordion.Header>
         <Accordion.Body className="abody" >
         <Row xs={1} md={2} className="g-4">

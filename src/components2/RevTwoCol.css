@@ -132,6 +132,16 @@ span2 img{
         width: 100%;
         height: auto;
     }
+
+    .xx{
+        margin-top: 15%;
+    }
+
+    .con-ETV{
+        font-size: 200%;
+        font-weight: bold;
+        line-height: 0.7;
+    }
     .bttn{
     
         width: 80%;
@@ -154,9 +164,7 @@ span2 img{
         /* display:none; */
     }
 
-    .con-ETV{
-        font-size: 300%;
-    }
+    
     
 }
 

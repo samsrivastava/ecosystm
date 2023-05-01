@@ -15,7 +15,7 @@ function RevTwoCol() {
         </Col>
 
         <Col className="RevrightCol-Rev">
-          <h1 className="con-ETV">Strategy to</h1>
+          <h1 className="con-ETV xx">Strategy to</h1>
           <h1 className="con-ETV">
             Execution<spanx className="con-ETV-fullstop">.</spanx>
           </h1>

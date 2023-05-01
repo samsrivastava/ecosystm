@@ -25,3 +25,16 @@
 .ctext{
     font-weight: bold;
 }
+
+@media screen and (max-width:500px) {
+
+    .mail{
+        position: absolute;
+        top: -30%;
+    }
+
+    .xxctext{
+        margin-top: 10%;
+    }
+    
+}

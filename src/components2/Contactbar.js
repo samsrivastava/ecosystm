@@ -8,10 +8,10 @@ class Contactbar extends Component {
     return (
     <div className="cbar">
       <nav className="ContactbarItems">
-        <h2 style={{color:"white"}}>
+        <h2 className="xxctext" style={{color:"white"}}>
         Contact the <qw className="ctext">Ecosystm Consulting Team.</qw>
         </h2>
-          <img src={mail} alt="Ecosystm" />
+          <img className="mail" src={mail} alt="Ecosystm" />
       </nav>
       </div>
     );

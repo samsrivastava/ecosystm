@@ -1,4 +1,4 @@
-.Plan{
+.Planning{
     width: 100%;
     height: fit-content;
     padding: 8% 8%;
@@ -31,4 +31,14 @@
 .image-div{
     display: flex;
     justify-items: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    .left-div {
+        margin: 10px 0px;
+        padding-left: 12%;
+        /* margin-left: 8%; */
+    }
+    
 }

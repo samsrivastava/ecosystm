@@ -15,6 +15,11 @@
     background-color: #e7f1ff;
 }
 
+.aisehi{
+  text-align: left;
+  margin-left: 15%;
+}
+
 .side-line{
     font-size: x-large;
     width: 37%;
@@ -86,13 +91,18 @@
     font-size: 18px;
     font-weight: bold;
     top: -50px;
-    left: 35px;
+    /* left: 0px; */
 }
 .logos{
   display:flex; 
   justify-content: center; 
   align-items: start;
   width: 10rem;
+}
+
+.aisehi{
+  text-align: left;
+  /* margin-left: 15%; */
 }
 
 .actualSlider{
@@ -123,9 +133,9 @@
     
   position: relative;
   align-items: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   top: -50px;
-  left: 35px;
+  /* left: 20px; */
 }
 }

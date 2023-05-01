@@ -4,7 +4,7 @@ import "./Planning.css";
 function Planning() {
   return (
     <>
-      <div className="Plan">
+      <div className="Planning">
         <div className="upper-div row">
           <div className="right-div col-sm-4">
             <div className="card-div">
