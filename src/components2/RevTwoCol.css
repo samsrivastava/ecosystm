@@ -4,6 +4,13 @@
     padding-top: 10%;
 }
 
+.LL1{
+    float: right;
+    margin-top: 1%;
+    width:20%;
+    
+}
+
 .con-rev-p{
     margin-top: 10%;
     font-weight: 400;
@@ -121,9 +128,9 @@ span2 img{
 }
 
 @media screen and (max-width: 500px){
-    span2 img {
-        height: 50%;
-        width: 50%;
+    .LL1{
+        
+        width: 15%;
     }
     }
 

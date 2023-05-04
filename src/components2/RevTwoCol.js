@@ -3,8 +3,7 @@ import Col from "react-bootstrap/Col";
 import "./RevTwoCol.css";
 import Value from "../images2/Value.png";
 import Button from "react-bootstrap/Button";
-import LL from "../images/Group 469 (1).svg";
-import Tri2 from "../images/Triangle-2.png";
+import L1 from "../images2/Ellipse 5.svg";
 
 function RevTwoCol() {
   return (
@@ -57,9 +56,9 @@ function RevTwoCol() {
                 size="lg"
               >
                 <span className="con-txt-btn">Learn More</span>
-                <span2>
-                  <img className="LL" alt="" src={LL} />
-                </span2>
+                <span99>
+                  <img className="LL1" alt="" src={L1} />
+                </span99>
               </Button>
             </div>
           </center>
