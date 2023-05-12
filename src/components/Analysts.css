@@ -116,6 +116,16 @@
     width: 100%;
 }
 
+@media screen and (max-width:600px) {
+    .abtn{
+        margin: auto;
+        z-index: 99999;
+        width: 100%;
+        position: relative;
+    }
+
+}
+
 @media screen and (max-width:500px) {
     .box{
         margin-top: 50px;

@@ -3,9 +3,8 @@ import Button from 'react-bootstrap/Button';
 import LLA from "../images/Group 467.svg";
 import linkedIn from "../images/LinkedIn.svg";
 import twitter from "../images/Twitter.svg";
-import Navbar from 'react-bootstrap/Navbar';
-import LogoCopy from "../images/Logo copy.svg"
-import footimg from "../images/Layer-511-copy.png"
+import LogoCopy from "../images/Logo copy.svg";
+import footimg from "../images/Layer-511-copy.png";
 
 
 
@@ -22,7 +21,7 @@ function Footer() {
       e.preventDefault();
       window.location.href='https://www.ecosystm360.com/#/contact-us';
       }} className="Foobtn" size="md">
-              <span className="ConUS">Contact Us</span><span2><img className="LL" alt="" src={LLA}/></span2>
+              <span className="ConUS">Contact Us</span><pre><img className="LL" alt="" src={LLA}/></pre>
             </Button>
           </div>
         </div>

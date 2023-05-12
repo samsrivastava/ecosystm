@@ -26,7 +26,7 @@ margin-top: 4.5%;
 
 }
 
-pill{
+.pill{
     background-color: #585858;
     position: absolute;
     bottom: 0;
@@ -69,7 +69,7 @@ pill{
     margin: auto;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .hel{
         margin-top: 1%;
         color: white;

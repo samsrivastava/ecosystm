@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .sect-head {
         font-size: 50%;
     }

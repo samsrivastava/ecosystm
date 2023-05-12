@@ -26,7 +26,7 @@
     /* transform: translate(-50%, -50%); */
     width: 100%;
 }
-.hero-text h1 spanx{
+.hero-text h1 div{
     font-size: 6rem;
     font-weight: 800;
     background: #FF0101;
@@ -49,7 +49,7 @@
 
 
 
-@media screen and (max-width:555px) {
+@media screen and (max-width:600px) {
     .hero-text h1{
         /* padding: 10px 20px; */
         font-size: 2rem;
@@ -64,7 +64,7 @@
         font-size: 2rem;
     }
 
-    .hero-text h1 spanx{
+    .hero-text h1 div{
         font-size: 2rem;
         font-weight: 800;
         background: #FF0101;

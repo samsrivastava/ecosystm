@@ -5,7 +5,7 @@ import Grp1 from "../images/Group 13.png";
 import Grp2 from "../images/Group 13 copy.png";
 import Grp3 from "../images/Group 13 copy 2.png";
 import Button from 'react-bootstrap/Button';
-import LL from "../images/Group\ 469\ \(1\).svg";
+import LL from "../images/Group 469 (1).svg";
 
 function Management() {
   return (
@@ -13,10 +13,10 @@ function Management() {
       <div className="plane2">
         <center>
           <div className="community">
-            <pill>ECOSYSTM COMMUNITY</pill>
+            <div className="pill">ECOSYSTM COMMUNITY</div>
           </div>
           <h1 className="hel">
-            Executive Engagements<span1>.</span1>
+            Executive Engagements<em>.</em>
           </h1>
           <h5 className="hel2">
             Invitation only gatherings hosted by Ecosystm analysts where
@@ -37,7 +37,7 @@ function Management() {
         </center>
           <div className="d-grid gap-2 management-bttn">
             <Button className="manage-btn " size="md">
-              <span className="mbtn">View All Ecosystm Gatherings</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="mbtn">View All Ecosystm Gatherings</span><pre><img className="LL" alt="" src={LL}/></pre>
             </Button>
           </div>
       </div>

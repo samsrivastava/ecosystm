@@ -1,7 +1,7 @@
 .plane4{
     margin-top: 200px;
     width: 100%;
-    height: 900px;
+    height: 800px;
     background-color: #1D1C23;
     /* transform: translate(10%); */
 }
@@ -121,7 +121,20 @@
     padding-bottom: 15px;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (min-width:601px) and (max-width:850px){
+
+    .plane4{
+        margin-top: 200px;
+        width: 100%;
+        height: 1150px;
+        background-color: #1D1C23;
+        /* transform: translate(10%); */
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
     .ConUS{
         margin: auto;
         font-size: medium;
@@ -167,7 +180,7 @@
         color: white;
         position: relative;
         bottom: -250px;
-        float: right;
+
         margin-right: 9%;
         padding-top: 20px;
         padding-left: 30px;

@@ -1,6 +1,6 @@
 import "./Herostyles.css";
-import Line from "../images/Line.svg"
-import HeroImg from "../images/pexels-anni-roenkae-2318068.png"
+import Line from "../images/Line.svg";
+import HeroImg from "../images/pexels-anni-roenkae-2318068.png";
 
 function Hero() {
   return (
@@ -11,9 +11,9 @@ function Hero() {
         />
         <div className="hero-text">
             <h1>Trusted Market</h1>
-            <h1>Research and Insights<pappu className="fullstop">.</pappu></h1>
+            <h1>Research and Insights<strong className="fullstop">.</strong></h1>
         </div>
-            <img className="Line" src={Line}/>
+            <img className="Line" alt="" src={Line}/>
       </div>
     </>
   );

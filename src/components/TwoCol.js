@@ -3,7 +3,7 @@ import Col from "react-bootstrap/Col";
 import "./TwoCol.css";
 import twocol from "../images/TwoCol.png";
 import Button from 'react-bootstrap/Button';
-import LL from "../images/Group\ 469\ \(1\).svg";
+import LL from "../images/Group 469 (1).svg";
 
 function TwoCol() {
   return (
@@ -12,7 +12,7 @@ function TwoCol() {
         <Col className="leftCol-twocol">
           <h1 className="Esys">Ecosystm</h1>
           <h1 className="Esys">
-            Insights<span1>.</span1>
+            Insights<em>.</em>
           </h1>
           <p>
             Latest Insights from the Ecosystm Analyst team and
@@ -30,7 +30,7 @@ function TwoCol() {
       e.preventDefault();
       window.location.href='https://blog.ecosystm360.com/';
       }} className="btn" size="lg">
-              <span className="txt-btn">View All Ecosystm Insights</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="txt-btn">View All Ecosystm Insights</span><pre><img className="LL" alt="" src={LL}/></pre>
             </Button>
           </div>
           </center>

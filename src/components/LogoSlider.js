@@ -12,7 +12,7 @@ export default function LogoSlider() {
       <div className="side-line">
         <div className="aisehi">
           <p className="side-text">
-            Our Customers Include<span1>.</span1>
+            Our Customers Include<em>.</em>
           </p>
         </div>
       </div>

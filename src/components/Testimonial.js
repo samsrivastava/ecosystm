@@ -9,7 +9,7 @@ function Testimonial() {
       <div className="plane3">
         <center>
           <h1 className="hel1">
-            Testimonials<span1>.</span1>
+            Testimonials<em>.</em>
           </h1>
           <CardGroup className="cdgrp">
             <Card className="m-3">
@@ -24,7 +24,7 @@ function Testimonial() {
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroup.Item className="name">APJ Region Head of Corporate Analyst Relations<br/><span1>HEWLETT PACKARD ENTERPRISE</span1></ListGroup.Item>
+                <ListGroup.Item className="name">APJ Region Head of Corporate Analyst Relations<br/><em>HEWLETT PACKARD ENTERPRISE</em></ListGroup.Item>
               </ListGroup>
             </Card>
             <Card className="m-3 myth">
@@ -38,7 +38,7 @@ function Testimonial() {
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroup.Item className="name">Deputy Director of<br/>Communications<br/><span1>SGINNOVATE</span1></ListGroup.Item>
+                <ListGroup.Item className="name">Deputy Director of<br/>Communications<br/><em>SGINNOVATE</em></ListGroup.Item>
               </ListGroup>
             </Card>
             <Card className="m-3 myth">
@@ -51,7 +51,7 @@ function Testimonial() {
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroup.Item className="name">Director of Information<br/>Strategy<br/><span1>AVEPOINT</span1></ListGroup.Item>
+                <ListGroup.Item className="name">Director of Information<br/>Strategy<br/><em>AVEPOINT</em></ListGroup.Item>
               </ListGroup>
             </Card>
           </CardGroup>

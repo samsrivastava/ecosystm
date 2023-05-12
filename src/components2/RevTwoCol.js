@@ -16,7 +16,7 @@ function RevTwoCol() {
         <Col className="RevrightCol-Rev">
           <h1 className="con-ETV xx">Strategy to</h1>
           <h1 className="con-ETV">
-            Execution<spanx className="con-ETV-fullstop">.</spanx>
+            Execution<s className="con-ETV-fullstop">.</s>
           </h1>
           <p className="con-rev-p">
             Ecosystm Consulting’s insights to execution approach guides clients
@@ -25,25 +25,25 @@ function RevTwoCol() {
             opportunities and provides clients with a clear roadmap for success.
           </p>
           <h3 className="h3-con">Aim Well</h3>
-          <p1 className="con-rev-p1">
+          <div className="con-rev-div">
             The Aim Well focus area helps clients establish clear strategies,
             goals and objectives.
-          </p1>
+          </div>
           <h3 className="h3-con">Plan Well</h3>
-          <p1 className="con-rev-p1">
+          <div className="con-rev-div">
             The Plan Well focus area helps clients develop a detailed plan of
             action.
-          </p1>
+          </div>
           <h3 className="h3-con">Buy Well</h3>
-          <p1 className="con-rev-p1">
+          <div className="con-rev-div">
             The Buy Well focus area helps clients make the right purchasing
             decisions.
-          </p1>
+          </div>
           <h3 className="h3-con">Implement Well</h3>
-          <p1 className="con-rev-p1">
+          <div className="con-rev-div">
             The Implement Well focus area helps clients successfully implement
             the plan.
-          </p1>
+          </div>
           <center>
             <div className="d-grid gap-2 con-bttn">
               <Button
@@ -56,9 +56,9 @@ function RevTwoCol() {
                 size="lg"
               >
                 <span className="con-txt-btn">Learn More</span>
-                <span99>
+                <div>
                   <img className="LL1" alt="" src={L1} />
-                </span99>
+                </div>
               </Button>
             </div>
           </center>

@@ -2,8 +2,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./TwoCol.css";
 import twocol from "../images2/Group 428.png";
-import Button from "react-bootstrap/Button";
-import LL from "../images/Group 469 (1).svg";
 
 function TwoCol() {
   return (
@@ -12,7 +10,7 @@ function TwoCol() {
         <Col className="leftCol-twocol">
           <h1 className="con-sys">The Ecosystm</h1>
           <h1 className="con-sys">
-            Consulting Matrix<spanx className="con-sys-fullstop">.</spanx>
+            Consulting Matrix<s className="con-sys-fullstop">.</s>
           </h1>
           <p className="con-sys-para">
             Organisations are experiencing challenges at a velocity never seen

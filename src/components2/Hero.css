@@ -24,7 +24,7 @@
     /* transform: translate(-50%, -50%); */
     width: 100%;
 }
-.con-hero-text h1 spanx{
+.con-hero-text h1 s{
     font-size: 6rem;
     font-weight: 800;
     background: #1A6659;
@@ -45,7 +45,7 @@
 
 
 
-@media screen and (max-width:555px) {
+@media screen and (max-width:600px) {
     .hero-text h1{
         /* padding: 10px 20px; */
         font-size: 2rem;
@@ -70,7 +70,7 @@
         -webkit-text-fill-color: transparent;
     }
 
-    .con-hero-text h1 spanx{
+    .con-hero-text h1 s{
         font-size: 2rem;
         font-weight: 800;
         background: #1A6659;
@@ -90,5 +90,17 @@
         background-color: #F4F6FB;
     }
 
+}
+
+@media screen and (min-width:600px) and (max-width:950px){
+    .con-hero-text h1{
+        /* padding: 10px 20px; */
+        font-size: 3rem;
+    }
+
+    .Line2{
+        display: none;
+        
+    }
 }
 

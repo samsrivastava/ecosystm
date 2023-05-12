@@ -13,7 +13,7 @@ h1{
     font-weight: bold;
 }
 
-span1{
+em{
     color: #FF0101;
 }
 
@@ -56,18 +56,18 @@ span{
     margin-top: 2.5%;
 }
 
-span2{
+pre{
     float: right;
     margin-top: 1%;
     transform: rotate(270deg);
 }
 
-span2 img{
+pre img{
     height: 75%;
     width: 75%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .rightCol{
         width: 100%;
         height: auto;

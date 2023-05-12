@@ -3,8 +3,7 @@ import Col from "react-bootstrap/Col";
 import "./RevTwoCol.css";
 import EcoTV from "../images/EcosystmTV.png";
 import Button from 'react-bootstrap/Button';
-import LL from "../images/Group\ 469\ \(1\).svg";
-import Tri2 from "../images/Triangle-2.png"
+import LL from "../images/Group 469 (1).svg";
 
 function RevTwoCol() {
   return (
@@ -16,7 +15,7 @@ function RevTwoCol() {
         </Col>
       
         <Col className="RevrightCol-Rev">
-        <h1 className="ETV">EcosystmTV<span1>.</span1></h1>
+        <h1 className="ETV">EcosystmTV<em>.</em></h1>
           <p>
             Interviews from business leaders, opinions from
             Ecosystm Analysts and EcosystemTV Bytes.
@@ -32,7 +31,7 @@ function RevTwoCol() {
       e.preventDefault();
       window.location.href='https://blog.ecosystm360.com/ecosystm-tv/';
       }} className="Revbtn" size="lg">
-              <span className="rev-txt-btn">Watch EcosystmTV</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="rev-txt-btn">Watch EcosystmTV</span><pre><img className="LL" alt="" src={LL}/></pre>
             </Button>
           </div>
           </center>

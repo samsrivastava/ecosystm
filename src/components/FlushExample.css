@@ -68,7 +68,7 @@
     margin-top: 4%;
 }
 
-span1{
+em{
     color: #FF0101;
 }
 
@@ -94,7 +94,7 @@ span{
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
-    height: 400px;
+    height: 415px;
     padding-left: 30px;
     
 }

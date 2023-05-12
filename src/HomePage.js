@@ -1,6 +1,5 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar.js"
 import Hero from "./components/Hero"
 import FlushExample from "./components/FlushExample";
 import TwoCol from "./components/TwoCol";
@@ -10,7 +9,7 @@ import AnoTwoCol from "./components/AnoTwoCol";
 import Management from "./components/Management";
 import Testimonial from "./components/Testimonial";
 import LogoSlider from "./components/LogoSlider";
-import Kompd from "./components/Kompd";
+import Kompd from "./components/Kampd";
 import Footer from "./components/Footer";
 import OffcanvasNavbar from "./components/Offcanvas";
 
@@ -20,7 +19,6 @@ function HomePage() {
   return (
     <>
     <OffcanvasNavbar/>
-    {/* <Navbar/> */}
     <Hero/>
     <FlushExample/>
     <TwoCol/>

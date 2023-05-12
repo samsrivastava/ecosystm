@@ -1,7 +1,7 @@
 import "./Analysts.css";
 import Clip from "../images/Clip.png"
 import Button from 'react-bootstrap/Button';
-import LL from "../images/Group\ 469\ \(1\).svg";
+import LL from "../images/Group 469 (1).svg";
 import f1 from "../images/Rectangle 9.png";
 import f2 from "../images/Rectangle 9 copy.png";
 import f3 from "../images/Rectangle 9 copy 2.png";
@@ -30,20 +30,14 @@ function Analysts() {
         <img alt="" src={f10} className="f10 myths"/>
         <img alt="" src={f11} className="f11 myths"/>
         <center className="center-box">
-        <div className="box"><h1 className="h1-box">Ecosystm Analysts<span1>.</span1></h1>
-        <br/>
-        <br/>
-        <br/>
+        <div className="box"><h1 className="h1-box">Ecosystm Analysts<em>.</em></h1>
         <div className="box2">Ecosystm Analysts come from a variety of backgrounds that include career analysts, CIOs and business leaders, and domain experts with decades of experience in their field.</div>
-        <br/>
-        <br/>
-        <br/>
         <div className="d-grid gap-2 Anabttn mt-5">
             <Button onClick={(e) => {
       e.preventDefault();
       window.location.href='https://www.ecosystm360.com/#/analyst-list';
       }}  className="abtn" size="lg">
-              <span className="qtxt">View All Ecosystm Analysts</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="qtxt">View All Ecosystm Analysts</span><pre><img className="LL" alt="" src={LL}/></pre>
             </Button>
           </div>
         </div>

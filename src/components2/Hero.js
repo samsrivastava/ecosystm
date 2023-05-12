@@ -14,9 +14,9 @@ function Hero() {
         />
         <div className="con-hero-text">
             <h1>Ecosystm Consulting:</h1>
-            <h1>Your 21st Century<king> Partner</king><spanx>.</spanx>
+            <h1>Your 21st Century Partner<s>.</s>
             </h1>
-            <img className="Line2" src={Line}/>
+            <img className="Line2" alt="" src={Line}/>
         </div>
       </div>
     </>

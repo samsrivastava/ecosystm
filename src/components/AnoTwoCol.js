@@ -3,8 +3,8 @@ import Col from "react-bootstrap/Col";
 import "./AnoTwoCol.css";
 import Rect from "../images/Rectangle 22.png";
 import Button from 'react-bootstrap/Button';
-import LL from "../images/Group\ 469\ \(1\).svg";
-import Log from "../images/Vector Smart Object copy 9.svg"
+import LL from "../images/Group 469 (1).svg";
+import Log from "../images/Vector Smart Object copy 9.svg";
 
 function AnoTwoCol() {
   return (
@@ -13,7 +13,7 @@ function AnoTwoCol() {
         <Col className="leftCol-Ano">
           <h1 className="Esys">Ecosystm</h1>
           <h1 className="Esys">
-            Consulting<span1>.</span1>
+            Consulting<em>.</em>
           </h1>
           <p className="psys">
             Ecosystm Consulting levereges a wealth of technical, functional and  
@@ -28,7 +28,7 @@ function AnoTwoCol() {
           <center>
           <div className="d-grid gap-2 bttn">
             <Button className="btn" size="lg">
-              <span className="ano-txt-btn">Learn More</span><span2><img className="LL" alt="" src={LL}/></span2>
+              <span className="ano-txt-btn">Learn More</span><pre><img className="LL" alt="" src={LL}/></pre>
             </Button>
           </div>
           </center>

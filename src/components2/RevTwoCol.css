@@ -23,7 +23,7 @@
     font-weight: 800;
 }
 
-.con-rev-p1{
+.con-rev-div{
     
     font-weight: 400;
     font-size: 20px;
@@ -31,7 +31,7 @@
     
 }
 
-spanx {
+s {
     font-size: 6rem;
     font-weight: 800;
     background: #1A6659;
@@ -62,7 +62,7 @@ spanx {
     line-height: 0.7;
 }
 
-span1{
+em{
     color: #FF0101;
 }
 
@@ -108,13 +108,13 @@ span{
     margin-top: 2.5%;
 }
 
-span2{
+pre{
     float: right;
     margin-top: 1%;
     transform: rotate(270deg);
 }
 
-span2 img{
+pre img{
     height: 75%;
     width: 75%;
 }

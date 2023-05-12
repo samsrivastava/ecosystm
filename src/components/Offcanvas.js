@@ -4,11 +4,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "../images/Logo.svg";
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import "./ofcanvas.css";
+import "./navbarStyles.css";
+
+
 
 function OffcanvasNavbar() {
   return (
     <>
-      {['sm'].map((expand) => (
+      {['lg'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3 NavbarItems">
           <Container fluid>
           <h4 className="navbar-logo">

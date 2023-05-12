@@ -63,7 +63,7 @@
 .logos{
     display:flex; 
     justify-content: center; 
-    align-items: start; 
+    /* align-items: start;  */
     width: 20rem;
 }
 
@@ -96,7 +96,6 @@
 .logos{
   display:flex; 
   justify-content: center; 
-  align-items: start;
   width: 10rem;
 }
 

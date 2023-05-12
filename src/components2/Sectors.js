@@ -15,7 +15,7 @@ function Sectors() {
   return (
     <>
       <div className="Plan row">
-        <center className="sect-head"><h1 >The Sectors<br className="jagah"/> We Work In<qw style={{color:"#82DECF"}}>.</qw></h1></center>
+        <center className="sect-head"><h1 >The Sectors<br className="jagah"/> We Work In<em style={{color:"#82DECF"}}>.</em></h1></center>
         <div className="sect col-sm-3"><img alt="" src={img1} className="img1"/><br/>Food & Agriculture</div>
         <div className="sect col-sm-3"><img alt="" src={img2}/><br/>Construction & Engineering</div>
         <div className="sect col-sm-3"><img alt="" src={img3}/><br/>Banking & Finance</div>

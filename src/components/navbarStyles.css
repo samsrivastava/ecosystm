@@ -10,6 +10,8 @@
     position: absolute;
 }
 
+
+
 .navbar-logo{
     cursor: pointer;
 }
@@ -64,6 +66,8 @@
 .menu-icons{
     display: none;
 }
+
+
 
 @media screen and (max-width: 850px){
     .NavbarItems{

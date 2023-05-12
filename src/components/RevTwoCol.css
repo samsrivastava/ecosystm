@@ -20,12 +20,12 @@
 }
 
 .ETV{
-    font-size: 400%;
+    font-size: 350%;
     font-weight: bold;
     margin-top: 20px;
 }
 
-span1{
+em{
     color: #FF0101;
 }
 
@@ -62,13 +62,13 @@ span{
     margin-top: 2.5%;
 }
 
-span2{
+pre{
     float: right;
     margin-top: 1%;
     transform: rotate(270deg);
 }
 
-span2 img{
+pre img{
     height: 75%;
     width: 75%;
 }
@@ -88,6 +88,11 @@ span2 img{
     .bttn{
     
         width: 80%;
+    }
+
+    pre img{
+        height: 60%;
+        width: 60%;
     }
 
     .RevleftCol-Rev{
@@ -114,7 +119,7 @@ span2 img{
 }
 
 @media screen and (max-width: 500px){
-span2 img {
+pre img {
     height: 50%;
     width: 50%;
 }
