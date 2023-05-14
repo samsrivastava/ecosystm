@@ -21,7 +21,7 @@
 }
 
 .mbtn{
-margin-top: 4.5%;
+margin-top: 4%;
 
 
 }
@@ -69,6 +69,28 @@ margin-top: 4.5%;
     margin: auto;
 }
 
+@media screen and (min-width:838px) and (max-width:1117px) {
+    .manage-btn{
+        border-color: #fff !important;
+        background: transparent !important;
+        color: white !important;
+        border-radius: 35px !important;
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:838px) {
+    .manage-btn{
+        border-color: #fff !important;
+        background: transparent !important;
+        color: white !important;
+        border-radius: 35px !important;
+        width: 45%;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width:600px) {
     .hel{
         margin-top: 1%;
@@ -97,7 +119,7 @@ margin-top: 4.5%;
     .mbtn{
         width: 69%;
     float: left;
-    margin-top: 4.5%;
+    margin-top: 3.5%;
     font-size: 11px;
 
     }

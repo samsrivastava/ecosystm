@@ -1,5 +1,7 @@
 import Value from "../images2/Value.png";
 import "./Planning.css";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function Planning() {
   return (
@@ -50,7 +52,7 @@ function Planning() {
           </div>
         </div>
         <div className="image-div">
-          <img className="img-fluid value" alt="" src={Value}></img>
+          <LazyLoadImage className="img-fluid value" alt="" src={Value}/>
         </div>
         <div className="lower-div row">
 

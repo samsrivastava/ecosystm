@@ -26,6 +26,18 @@
     font-weight: bold;
 }
 
+@media screen and (min-width:601px) and (max-width:769px){
+
+    .cbar{
+        width: 100%;
+        position: absolute;
+        z-index: 99999;
+        margin-top: 147px;
+        height: fit-content;
+    }
+    
+}
+
 @media screen and (max-width:500px) {
 
     .mail{

@@ -60,14 +60,27 @@ pre{
     float: right;
     margin-top: 1%;
     transform: rotate(270deg);
+    margin-bottom: 0;
 }
 
-pre img{
-    height: 75%;
-    width: 75%;
+@media screen and (min-width:350px) and (max-width:385px) {
+    .txt-btn{
+        width: 65%;
+        float: left;
+        margin-top: 1.5%;
+        font-size: 12px;
+    }
+    .abc{
+        width: 50%;
+    }
 }
 
-@media screen and (max-width: 769px) {
+
+
+@media screen and (min-width:385px) and (max-width: 769px) {
+    .abc{
+        width: 50%;
+    }
     .rightCol{
         width: 100%;
         height: auto;

@@ -29,12 +29,7 @@ em{
     font-size: 20px;
     color: #7A7A7A;
 }
-.txt-btn{
-    width: 70%;
-    float: left;
-    margin-top: 5.5%;
-    font-size: 15px;
-}
+
 
 .con-twoCol{
     margin: auto;
@@ -106,12 +101,7 @@ pre img{
         font-size: 1.5rem;
     }
 
-    .txt-btn{
-        width: 67%;
-    float: left;
-    margin-top: 4.5%;
-    font-size: 11px;
-    }
+    
 
     .leftCol-twocol p{
         margin-top: 10%;

@@ -4,13 +4,15 @@ import "./RevTwoCol.css";
 import Value from "../images2/Value.png";
 import Button from "react-bootstrap/Button";
 import L1 from "../images2/Ellipse 5.svg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function RevTwoCol() {
   return (
     <>
       <Row xs={1} md={2} className="g-4-Rev" id="EcosystmTV">
         <Col className="con-RevleftCol-Rev">
-          <img className="img-fluid value" alt="" src={Value}></img>
+          <LazyLoadImage className="img-fluid value" alt="" src={Value}/>
         </Col>
 
         <Col className="RevrightCol-Rev">
@@ -57,7 +59,7 @@ function RevTwoCol() {
               >
                 <span className="con-txt-btn">Learn More</span>
                 <div>
-                  <img className="LL1" alt="" src={L1} />
+                  <LazyLoadImage className="LL1" alt="" src={L1} />
                 </div>
               </Button>
             </div>

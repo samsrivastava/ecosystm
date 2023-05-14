@@ -2,6 +2,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./TwoCol.css";
 import twocol from "../images2/Group 428.png";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function TwoCol() {
   return (
@@ -26,7 +28,7 @@ function TwoCol() {
           <br />
         </Col>
         <Col className="con-rightCol-twocol">
-          <img className="img-fluid con-twoCol" alt="" src={twocol} />
+          <LazyLoadImage className="img-fluid con-twoCol" alt="" src={twocol} />
         </Col>
       </Row>
     </>

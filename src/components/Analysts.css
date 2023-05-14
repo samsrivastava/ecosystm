@@ -116,6 +116,17 @@
     width: 100%;
 }
 
+@media screen and (min-width:600px) and (max-width:800px) {
+    .abtn{
+        margin: auto;
+        z-index: 99999;
+        width: 350px;
+        position: relative;
+    }
+}
+
+
+
 @media screen and (max-width:600px) {
     .abtn{
         margin: auto;

@@ -1,6 +1,8 @@
 import { Component } from "react";
 import "./Contactbar.css";
 import mail from "../images2/Group 218.png";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 class Contactbar extends Component {
   render() {
@@ -10,7 +12,7 @@ class Contactbar extends Component {
         <h2 className="xxctext" style={{color:"white"}}>
         Contact the <strong className="ctext">Ecosystm Consulting Team.</strong>
         </h2>
-          <img className="mail" src={mail} alt="Ecosystm" />
+          <LazyLoadImage className="mail" src={mail} alt="Ecosystm" />
       </nav>
       </div>
     );

@@ -1,9 +1,11 @@
 .Plan{
     width: 100%;
     height: fit-content;
-    padding: 6% 6%;
+    padding: 7% 6%;
     background-color: #F4F6FB;
     margin-top: 10%;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .sect-head{

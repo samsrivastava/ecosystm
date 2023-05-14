@@ -5,6 +5,8 @@ import linkedIn from "../images/LinkedIn.svg";
 import twitter from "../images/Twitter.svg";
 import LogoCopy from "../images/Logo copy.svg";
 import footimg from "../images/Layer-511-copy.png";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 
 
@@ -21,11 +23,11 @@ function Footer() {
       e.preventDefault();
       window.location.href='https://www.ecosystm360.com/#/contact-us';
       }} className="Foobtn" size="md">
-              <span className="ConUS">Contact Us</span><pre><img className="LL" alt="" src={LLA}/></pre>
+              <span className="ConUS">Contact Us</span><pre><LazyLoadImage className="LL" alt="" src={LLA}/></pre>
             </Button>
           </div>
         </div>
-        <img className="col-sm-6 fooimg" alt="" src={footimg}/>
+        <LazyLoadImage className="col-sm-6 fooimg" alt="" src={footimg}/>
         </div>
         <div className="FooterNav">
         <ul className="UlFoot">
@@ -46,17 +48,17 @@ function Footer() {
               </li>
               <li className="t-all">
                 <a href="https://twitter.com/ecosystm360">
-                  <img className="foot" alt="" src={linkedIn}/>
+                  <LazyLoadImage className="foot" alt="" src={linkedIn}/>
                 </a>
                 <a href="https://www.linkedin.com/company/ecosystm360/mycompany/">
-                  <img className="foot" alt="" src={twitter}/>
+                  <LazyLoadImage className="foot" alt="" src={twitter}/>
                 </a>
             </li>
         </ul>
         </div>
         <hr className="fooHr"/>
         <div>
-            <img className="logocopy" alt="" src={LogoCopy}/>
+            <LazyLoadImage className="logocopy" alt="" src={LogoCopy}/>
             <h4 className="copyright">©2023 Ecosystm. All rights reserved</h4>
         </div>
       </div>

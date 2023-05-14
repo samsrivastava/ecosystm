@@ -6,6 +6,7 @@ import Grp2 from "../images/Group 13 copy.png";
 import Grp3 from "../images/Group 13 copy 2.png";
 import Button from 'react-bootstrap/Button';
 import LL from "../images/Group 469 (1).svg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Management() {
   return (
@@ -37,7 +38,7 @@ function Management() {
         </center>
           <div className="d-grid gap-2 management-bttn">
             <Button className="manage-btn " size="md">
-              <span className="mbtn">View All Ecosystm Gatherings</span><pre><img className="LL" alt="" src={LL}/></pre>
+              <span className="mbtn">View All Ecosystm Gatherings</span><pre><LazyLoadImage className="LL abc" alt="" src={LL}/></pre>
             </Button>
           </div>
       </div>

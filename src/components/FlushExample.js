@@ -4,6 +4,7 @@ import accImg from "../images/Vector Smart Object.png";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function FlushExample() {
   return (
@@ -39,7 +40,7 @@ function FlushExample() {
               in the enterprise world.
             </p>
             <center>
-              <img className="aimg" alt="" src={accImg} />
+              <LazyLoadImage className="aimg" alt="" src={accImg} />
             </center>
           </Accordion.Body>
         </Accordion.Item>

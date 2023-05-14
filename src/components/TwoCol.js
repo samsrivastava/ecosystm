@@ -4,6 +4,8 @@ import "./TwoCol.css";
 import twocol from "../images/TwoCol.png";
 import Button from 'react-bootstrap/Button';
 import LL from "../images/Group 469 (1).svg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function TwoCol() {
   return (
@@ -30,13 +32,13 @@ function TwoCol() {
       e.preventDefault();
       window.location.href='https://blog.ecosystm360.com/';
       }} className="btn" size="lg">
-              <span className="txt-btn">View All Ecosystm Insights</span><pre><img className="LL" alt="" src={LL}/></pre>
+              <span className="txt-btn">View All Ecosystm Insights</span><pre><img className="LL abc" alt="" src={LL}/></pre>
             </Button>
           </div>
           </center>
         </Col>
         <Col className="rightCol-twocol">
-          <img className="img-fluid" alt="" src={twocol} />
+          <LazyLoadImage className="img-fluid" alt="" src={twocol} />
         </Col>
       </Row>
     </>

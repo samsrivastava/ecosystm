@@ -5,6 +5,7 @@ import ZOOM from "../images/ZOOM.svg";
 import IBM from "../images/IBM.svg";
 import AWS from "../images/AWS.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function LogoSlider() {
   return (
@@ -19,34 +20,34 @@ export default function LogoSlider() {
       <div className="inslider">
         <div className="actualSlider animate">
           <div className="logos">
-            <img alt="Microsoft" src={MS} />
+            <LazyLoadImage alt="Microsoft" src={MS} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={ZOOM} />
+            <LazyLoadImage alt="Microsoft" src={ZOOM} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={HPE} />
+            <LazyLoadImage alt="Microsoft" src={HPE} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={IBM} />
+            <LazyLoadImage alt="Microsoft" src={IBM} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={AWS} />
+            <LazyLoadImage alt="Microsoft" src={AWS} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={MS} />
+            <LazyLoadImage alt="Microsoft" src={MS} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={ZOOM} />
+            <LazyLoadImage alt="Microsoft" src={ZOOM} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={HPE} />
+            <LazyLoadImage alt="Microsoft" src={HPE} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={IBM} />
+            <LazyLoadImage alt="Microsoft" src={IBM} />
           </div>
           <div className="logos">
-            <img alt="Microsoft" src={AWS} />
+            <LazyLoadImage alt="Microsoft" src={AWS} />
           </div>
         </div>
       </div>
