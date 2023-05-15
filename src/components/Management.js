@@ -1,4 +1,4 @@
-import "./Management.css";
+import "./styles1/Management.css";
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Grp1 from "../images/Group 13.png";

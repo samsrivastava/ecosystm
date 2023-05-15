@@ -1,5 +1,5 @@
 import Value from "../images2/Value.png";
-import "./Planning.css";
+import "./styles2/Planning.css";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 

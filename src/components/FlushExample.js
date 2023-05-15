@@ -1,5 +1,5 @@
 import Accordion from "react-bootstrap/Accordion";
-import "./FlushExample.css";
+import "./styles1/FlushExample.css";
 import accImg from "../images/Vector Smart Object.png";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";

@@ -1,4 +1,4 @@
-import "./Analysts.css";
+import "./styles1/Analysts.css";
 import Clip from "../images/Clip.png"
 import Button from 'react-bootstrap/Button';
 import LL from "../images/Group 469 (1).svg";

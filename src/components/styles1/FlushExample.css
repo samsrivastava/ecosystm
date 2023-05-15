@@ -100,8 +100,8 @@ span{
 }
 
 .accordion{
-    --bs-accordion-btn-icon: url("../images/Group\ 469\ \(1\).svg");
-    --bs-accordion-btn-active-icon: url("../images/Group\ 469.svg");
+    --bs-accordion-btn-icon: url("../../images/Group 469 (1).svg");
+    --bs-accordion-btn-active-icon: url("../../images/Group 469.svg");
     --bs-accordion-btn-icon-width: 3rem;
 }
 

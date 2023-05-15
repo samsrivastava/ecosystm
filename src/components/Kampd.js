@@ -1,6 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./kompd.css";
+import "./styles1/kompd.css";
 import kamp from "../images/Kamp.png";
 import Button from 'react-bootstrap/Button';
 import LL from "../images/Group 469 (1).svg";
@@ -26,7 +26,7 @@ function Kompd() {
           <hr className="hr" />
           </center>
           <br />
-          <center>
+          {/* <center>
           <div className="d-grid gap-2 Revbttn">
             <Button onClick={(e) => {
       e.preventDefault();
@@ -35,7 +35,15 @@ function Kompd() {
               <span className="txt-btn-kompd">Visit the Kampd Website</span><pre><LazyLoadImage className="LL abc" alt="" src={LL}/></pre>
             </Button>
           </div>
-          </center>
+          </center> */}
+          <div>
+              <Button className="qwerty"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = 'https://www.kampd.com/';
+                }}
+              >Visit the Kampd Website <img className="xyz" alt="" src={LL}/></Button>
+            </div>
         </Col>
       </Row>
     </>

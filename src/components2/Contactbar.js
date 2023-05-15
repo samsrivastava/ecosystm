@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./Contactbar.css";
+import "./styles2/Contactbar.css";
 import mail from "../images2/Group 218.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

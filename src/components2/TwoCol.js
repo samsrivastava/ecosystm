@@ -1,6 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./TwoCol.css";
+import "./styles2/TwoCol.css";
 import twocol from "../images2/Group 428.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

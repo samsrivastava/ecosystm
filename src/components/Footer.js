@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "./styles1/Footer.css";
 import Button from 'react-bootstrap/Button';
 import LLA from "../images/Group 467.svg";
 import linkedIn from "../images/LinkedIn.svg";
@@ -17,14 +17,15 @@ function Footer() {
         <div className="center-box-footer row">
         <div className="box-footer col-sm-6"><h1 className="learn">Learn More.</h1>
         <div className="box2-footer">Want to understand more about how Ecosystm can help, please visit our contact us page and we will be in touch!</div>
-        <div className="d-grid gap-2 Foobttn btn-primary-footer mt-5">
-            <Button onClick={(e) => {
-      e.preventDefault();
-      window.location.href='https://www.ecosystm360.com/#/contact-us';
-      }} className="Foobtn" size="md">
-              <span className="ConUS">Contact Us</span><pre><LazyLoadImage className="LL" alt="" src={LLA}/></pre>
-            </Button>
-          </div>
+        
+          <div>
+              <Button className="qwertz Foobtn  mt-5"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = 'https://www.ecosystm360.com/#/contact-us';
+                }}
+              >Contact Us <img className="xyz" alt="" src={LLA}/></Button>
+            </div>
         </div>
         <LazyLoadImage className="col-sm-6 fooimg" alt="" src={footimg}/>
         </div>

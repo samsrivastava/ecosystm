@@ -1,4 +1,4 @@
-import "./LogoSlider.css";
+import "./styles1/LogoSlider.css";
 import HPE from "../images/HPE.svg";
 import MS from "../images/MS.svg";
 import ZOOM from "../images/ZOOM.svg";

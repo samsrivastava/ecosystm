@@ -1,4 +1,4 @@
-import "./testimonial.css";
+import "./styles1/testimonial.css";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import ListGroup from 'react-bootstrap/ListGroup';

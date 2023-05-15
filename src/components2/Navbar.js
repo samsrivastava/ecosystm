@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./Navbar.css";
+import "./styles2/Navbar.css";
 import Logo from "../images2/Logo.svg";
 import Logo2 from "../images2/Logo2.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';

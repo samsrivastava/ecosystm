@@ -24,16 +24,9 @@ em{
     color: #7A7A7A;
 }
 
-.txt-btn{
-    width: 70%;
-    float: left;
-    margin-top: 5.5%;
-    font-size: 15px;
-}
+
 
 .rightCol-twocol{
-    /* width: 50%; */
-    /* transform: translate(20%); */
     height: auto;
 }
 
@@ -44,63 +37,53 @@ em{
     margin-bottom: 50px;
 }
 
-.btn-primary{
+
+
+
+.xyz{
+    transform: rotate(270deg);
+    width: 50px;
+    text-align: right;
+    position: relative;
+    margin-left: 10%;
+}
+
+.qwerty{
+    margin-bottom: 20px;
+    --bs-btn-border-radius: 35px;
     --bs-btn-border-color: #b8b8b8;
     --bs-btn-bg: #ffffff;
     --bs-btn-color: #141619;
-    --bs-btn-border-radius: 28px;
-}
-span{
-    width: 70%;
-    float: left;
-    margin-top: 2.5%;
+    min-width: 300px;
 }
 
-pre{
-    float: right;
-    margin-top: 1%;
-    transform: rotate(270deg);
-    margin-bottom: 0;
+.qwertz{
+    margin-bottom: 20px;
+    --bs-btn-border-radius: 35px;
+    --bs-btn-border-color: #b8b8b8;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-color: #141619;
+    min-width: 200px;
 }
 
-@media screen and (min-width:350px) and (max-width:385px) {
-    .txt-btn{
-        width: 65%;
-        float: left;
-        margin-top: 1.5%;
-        font-size: 12px;
-    }
-    .abc{
-        width: 50%;
-    }
-}
+
 
 
 
 @media screen and (min-width:385px) and (max-width: 769px) {
-    .abc{
-        width: 50%;
-    }
+    
     .rightCol{
         width: 100%;
         height: auto;
     }
-    .bttn{
     
-        width: 80%;
-    }
 
     .card-title {
         margin-bottom: var(--bs-card-title-spacer-y);
         font-size: 1.5rem;
     }
 
-    .txt-btn{
-        width: 67%;
-    float: left;
-    margin-top: 4.5%;
-    font-size: 11px;
-    }
+    
 
     .leftCol-twocol p{
         margin-top: 10%;
@@ -108,11 +91,5 @@ pre{
         font-size: medium;
     }
 
-    span{
-        width: 50%;
-        float: left;
-        margin-top: 2.5%;
-        font-size: small;
-    }
     
 }

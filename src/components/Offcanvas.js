@@ -4,12 +4,27 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "../images/Logo.svg";
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import "./ofcanvas.css";
-import "./navbarStyles.css";
+import "./styles1/ofcanvas.css";
+import "./styles1/navbarStyles.css";
+import { useState } from 'react';
 
 
 
 function OffcanvasNavbar() {
+
+  const [show, setShow] = useState(false);
+
+  const toggleOffCanvas = () => {
+
+    if (window.innerWidth < 992) {
+      setShow((show) => !show);
+   }
+  };
+
+  const location=(x)=>{
+    setTimeout(function(){window.location=x},500);
+  }
+
   return (
     <>
       {['lg'].map((expand) => (
@@ -21,11 +36,13 @@ function OffcanvasNavbar() {
       window.location.href='/';
       }} alt="Ecosystm"/>
         </h4>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} onClick={toggleOffCanvas}/>
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
+              show={show}
+              onHide={toggleOffCanvas}
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
@@ -44,13 +61,13 @@ function OffcanvasNavbar() {
             >
               <NavDropdown.Item
                 className="nav-links-dropdown"
-                href="#OurOfferings"
+                onClick={function(event){ toggleOffCanvas(); location("#OurOfferings");}}
               >
                 Our Offerings
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="nav-links-dropdown"
-                href="#analysts"
+                onClick={function(event){ toggleOffCanvas(); location("#analysts");}}
               >
                 Analysts
               </NavDropdown.Item>
@@ -81,13 +98,13 @@ function OffcanvasNavbar() {
             >
               <NavDropdown.Item
                 className="nav-links-dropdown"
-                href="#insights"
+                onClick={function(event){ toggleOffCanvas(); location("#insights");}}
               >
                 Insights
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="nav-links-dropdown"
-                href="#EcosystmTV"
+                onClick={function(event){ toggleOffCanvas(); location("#EcosystmTV");}}
               >
                 EcosystmTV
               </NavDropdown.Item>
@@ -107,7 +124,7 @@ function OffcanvasNavbar() {
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="nav-links-dropdown"
-                href="#kampd"
+                onClick={function(event){ toggleOffCanvas(); location("#kampd");}}
               >
                 Kampd
               </NavDropdown.Item>

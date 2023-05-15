@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "./styles2/Hero.css";
 import Line from "../images2/Line.png";
 import HeroImg from "../images/pexels-anni-roenkae-2318068.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';

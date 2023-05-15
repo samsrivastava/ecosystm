@@ -1,6 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./RevTwoCol.css";
+import "./styles2/RevTwoCol.css";
 import Value from "../images2/Value.png";
 import Button from "react-bootstrap/Button";
 import L1 from "../images2/Ellipse 5.svg";

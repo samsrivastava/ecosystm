@@ -1,0 +1,66 @@
+.g-4-Rev{
+    width: 85%;
+    margin:auto;
+    padding-top: 10%;
+}
+
+.RevrightCol-Rev p{
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7A7A7A;
+}
+
+
+
+
+.ETV{
+    font-size: 350%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+em{
+    color: #FF0101;
+}
+
+.RevleftCol-Rev p{
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.RevrightCol-Rev{
+    
+    height: auto;
+}
+
+.RevleftCol-Rev{
+    padding-bottom: 5%;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .RevrightCol-Rev{
+        width: 100%;
+        height: auto;
+    }
+   
+
+    .RevleftCol-Rev{
+    
+    margin-top: 70px;
+        padding-bottom: 5%;
+    }
+    
+
+
+    .ETV{
+        font-size: 300%;
+    }
+    
+}
+

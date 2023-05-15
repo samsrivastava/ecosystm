@@ -1,4 +1,4 @@
-import "./Sectors.css";
+import "./styles2/Sectors.css";
 import img1 from "../images2/Food & Agriculture.svg";
 import img2 from "../images2/Vector Smart Object.svg";
 import img3 from "../images2/Vector Smart Object (1).svg";

@@ -1,6 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./RevTwoCol.css";
+import "./styles1/RevTwoCol.css";
 import EcoTV from "../images/EcosystmTV.png";
 import Button from 'react-bootstrap/Button';
 import LL from "../images/Group 469 (1).svg";
@@ -27,7 +27,7 @@ function RevTwoCol() {
           <hr className="hr" />
           </center>
           <br />
-          <center>
+          {/* <center>
           <div className="d-grid gap-2 Revbttn">
             <Button onClick={(e) => {
       e.preventDefault();
@@ -36,7 +36,15 @@ function RevTwoCol() {
               <span className="rev-txt-btn">Watch EcosystmTV</span><pre><LazyLoadImage className="LL abc" alt="" src={LL}/></pre>
             </Button>
           </div>
-          </center>
+          </center> */}
+          <div>
+              <Button className="qwerty"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = 'https://blog.ecosystm360.com/ecosystm-tv/';
+                }}
+              >Watch EcosystmTV <img className="xyz" alt="" src={LL}/></Button>
+            </div>
         </Col>
       </Row>
     </>
